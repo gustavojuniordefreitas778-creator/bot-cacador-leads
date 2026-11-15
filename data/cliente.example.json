@@ -1,0 +1,14 @@
+{
+  "slug": "cafe-exemplo-foz",
+  "nome_empresa": "Café Exemplo",
+  "categoria": "cafe",
+  "cidade": "Foz do Iguaçu, PR",
+  "whatsapp": "+55 45 99999-0000",
+  "descricao": "Café especial, produtos frescos e um espaço acolhedor para aproveitar cada pausa do dia.",
+  "servicos": [
+    "Cafés especiais",
+    "Doces e produtos frescos",
+    "Pedidos para retirada",
+    "Atendimento para eventos"
+  ]
+}

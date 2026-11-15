@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="Café especial, produtos frescos e um espaço acolhedor para aproveitar cada pausa do dia.">
+  <title>Café Exemplo | Foz do Iguaçu, PR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Plus Jakarta Sans', 'sans-serif']
+          },
+          colors: {
+            midnight: 'var(--theme-hero)',
+            emerald: {
+              50: 'var(--theme-tint)',
+              100: 'var(--theme-tint)',
+              200: 'var(--theme-secondary)',
+              300: 'var(--theme-secondary)',
+              400: 'var(--theme-accent)',
+              450: 'var(--theme-primary)',
+              500: 'var(--theme-primary)',
+              550: 'var(--theme-primary-dark)',
+              600: 'var(--theme-primary)',
+              700: 'var(--theme-secondary)',
+              800: 'var(--theme-primary-dark)',
+              900: 'var(--theme-hero)',
+              950: 'var(--theme-hero)'
+            },
+            amber: {
+              50: 'var(--theme-tint)',
+              300: 'var(--theme-accent)',
+              400: 'var(--theme-accent)',
+              500: 'var(--theme-accent)',
+              700: 'var(--theme-secondary)'
+            }
+          },
+          boxShadow: {
+            soft: '0 18px 50px rgba(15, 23, 42, .08)',
+            glow: '0 12px 35px color-mix(in srgb, var(--theme-primary) 24%, transparent)'
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    :root {
+      color-scheme: light;
+      scroll-behavior: smooth;
+      --theme-primary: #c2410c;
+      --theme-primary-dark: #9a3412;
+      --theme-secondary: #b45309;
+      --theme-accent: #fbbf24;
+      --theme-hero: #431407;
+      --theme-tint: #fff7ed;
+    }
+    body { font-family: Inter, sans-serif; }
+    h1, h2, h3, .font-display { font-family: "Plus Jakarta Sans", sans-serif; }
+    .hero-grid {
+      background-image: linear-gradient(rgba(148, 163, 184, .055) 1px, transparent 1px), linear-gradient(90deg, rgba(148, 163, 184, .055) 1px, transparent 1px);
+      background-size: 56px 56px;
+      mask-image: linear-gradient(to bottom, black 0%, transparent 88%);
+    }
+    .float-pulse { animation: float-pulse 2.8s ease-in-out infinite; }
+    @keyframes float-pulse {
+      0%, 100% { box-shadow: 0 12px 30px color-mix(in srgb, var(--theme-primary) 28%, transparent); transform: translateY(0); }
+      50% { box-shadow: 0 16px 38px color-mix(in srgb, var(--theme-primary) 40%, transparent); transform: translateY(-3px); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      :root { scroll-behavior: auto; }
+      *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased">
+  <header class="absolute inset-x-0 top-0 z-20 border-b border-white/10">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between gap-5 px-5 py-5 sm:px-8 lg:px-10" aria-label="Navegação principal">
+      <a class="font-display max-w-[60%] truncate text-base font-extrabold tracking-normal text-white sm:text-lg" href="#inicio" aria-label="Café Exemplo, início">Café Exemplo</a>
+      <a class="inline-flex shrink-0 items-center gap-2 rounded-full border border-white/20 px-4 py-2.5 text-sm font-semibold text-white transition hover:border-emerald-300/70 hover:bg-white/10" href="https://wa.me/5545999990000" target="_blank" rel="noopener noreferrer" aria-label="Entre em contato com Café Exemplo pelo WhatsApp">
+        <span class="hidden sm:inline">Fale conosco</span><span class="sm:hidden">Contato</span>
+        <svg aria-hidden="true" viewBox="0 0 20 20" class="h-4 w-4" fill="none"><path d="M4 10h12m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="relative isolate overflow-hidden bg-midnight text-white">
+      <div class="hero-grid pointer-events-none absolute inset-0 opacity-80" aria-hidden="true"></div>
+      <div class="pointer-events-none absolute -right-36 top-28 h-[30rem] w-[30rem] rounded-full bg-emerald-500/10 blur-3xl" aria-hidden="true"></div>
+      <div class="pointer-events-none absolute -left-40 bottom-0 h-80 w-80 rounded-full bg-amber-400/[0.07] blur-3xl" aria-hidden="true"></div>
+      <div class="relative mx-auto grid min-h-[720px] max-w-7xl items-center gap-12 px-5 pb-20 pt-32 sm:px-8 sm:pt-36 lg:min-h-[760px] lg:grid-cols-[1.15fr_.85fr] lg:px-10 lg:pb-24">
+        <div class="max-w-3xl">
+          <div class="inline-flex items-center gap-2 rounded-full border border-emerald-300/25 bg-emerald-300/[0.08] px-3.5 py-2 text-sm font-medium text-emerald-100">
+            <svg aria-hidden="true" viewBox="0 0 24 24" class="h-5 w-5" fill="none"><path d="M4 3v7a3 3 0 0 0 6 0V3M7 3v18m10-18v18m0-18c-2 2-3 5-3 8h6c0-3-1-6-3-8Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Atendimento em Foz do Iguaçu, PR
+          </div>
+          <h1 class="mt-8 max-w-3xl font-display text-4xl font-extrabold leading-[1.08] tracking-normal text-white sm:text-5xl lg:text-6xl xl:text-7xl">Uma escolha certa para o que você precisa.</h1>
+          <p class="mt-6 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg sm:leading-8">Café especial, produtos frescos e um espaço acolhedor para aproveitar cada pausa do dia.</p>
+          <div class="mt-9 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
+            <a class="inline-flex min-h-14 w-full items-center justify-center gap-3 rounded-xl bg-emerald-450 px-6 py-3.5 text-base font-bold text-white shadow-glow transition hover:-translate-y-0.5 hover:bg-emerald-550 sm:w-auto" href="https://wa.me/5545999990000" target="_blank" rel="noopener noreferrer" aria-label="Inicie uma conversa com Café Exemplo no WhatsApp">
+              <svg aria-hidden="true" viewBox="0 0 24 24" class="h-5 w-5" fill="currentColor"><path d="M12.04 2a9.93 9.93 0 0 0-8.52 15.04L2.2 22l5.08-1.3A10 10 0 1 0 12.04 2Zm0 18.18c-1.54 0-3.05-.41-4.36-1.19l-.31-.18-3.01.77.8-2.93-.2-.31a8.17 8.17 0 1 1 7.08 3.84Zm4.49-6.12c-.25-.13-1.48-.73-1.71-.81-.23-.08-.4-.13-.57.13-.17.25-.65.81-.8.98-.15.17-.3.19-.55.06-.25-.13-1.06-.39-2.02-1.24-.75-.67-1.25-1.5-1.4-1.75-.15-.25-.02-.39.11-.52.11-.11.25-.3.38-.44.13-.15.17-.25.25-.42.08-.17.04-.32-.02-.44-.06-.13-.57-1.36-.78-1.86-.21-.49-.42-.42-.57-.43h-.49c-.17 0-.44.06-.67.32-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.02 2.61.13.17 1.77 2.7 4.28 3.79.6.26 1.07.41 1.44.52.6.19 1.14.16 1.57.1.48-.07 1.48-.61 1.69-1.2.21-.59.21-1.1.15-1.2-.06-.1-.23-.17-.48-.3Z"/></svg>
+              Conversar no WhatsApp
+              <svg aria-hidden="true" viewBox="0 0 20 20" class="h-4 w-4" fill="none"><path d="M4 10h12m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <span class="text-sm text-slate-400">Ou ligue: <a class="font-semibold text-slate-200 underline decoration-slate-600 underline-offset-4" href="https://wa.me/5545999990000" target="_blank" rel="noopener noreferrer">+55 45 99999-0000</a></span>
+          </div>
+          <div class="mt-12 flex flex-wrap gap-x-7 gap-y-3 border-t border-white/10 pt-6 text-sm text-slate-300">
+            <span class="inline-flex items-center gap-2"><svg aria-hidden="true" viewBox="0 0 20 20" class="h-4 w-4 text-emerald-300" fill="none"><path d="m5 10 3.2 3.2L15.5 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Contato direto</span>
+            <span class="inline-flex items-center gap-2"><svg aria-hidden="true" viewBox="0 0 20 20" class="h-4 w-4 text-emerald-300" fill="none"><path d="M10 17s5-4.4 5-9a5 5 0 1 0-10 0c0 4.6 5 9 5 9Z" stroke="currentColor" stroke-width="1.5"/><circle cx="10" cy="8" r="1.7" stroke="currentColor" stroke-width="1.5"/></svg>Atendimento local</span>
+            <span class="inline-flex items-center gap-2"><svg aria-hidden="true" viewBox="0 0 20 20" class="h-4 w-4 text-emerald-300" fill="none"><path d="M4 6.5h12v8H4zM7 6.5V4h6v2.5m-9 3h12" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>Conversa sem compromisso</span>
+          </div>
+        </div>
+
+        <div class="relative mx-auto hidden w-full max-w-md lg:block" aria-hidden="true">
+          <div class="absolute -inset-5 rounded-[2rem] border border-white/10"></div>
+          <div class="relative overflow-hidden rounded-3xl border border-white/10 bg-slate-900/90 p-7 shadow-2xl shadow-black/30 backdrop-blur">
+            <div class="flex items-center justify-between border-b border-white/10 pb-5">
+              <div><p class="text-xs font-semibold uppercase tracking-[.12em] text-slate-400">Gastronomia</p><p class="mt-1 font-display text-lg font-bold text-white">Foz do Iguaçu, PR</p></div>
+              <span class="flex h-11 w-11 items-center justify-center rounded-full bg-emerald-400/10 text-emerald-300"><svg aria-hidden="true" viewBox="0 0 24 24" class="h-5 w-5" fill="none"><path d="M4 3v7a3 3 0 0 0 6 0V3M7 3v18m10-18v18m0-18c-2 2-3 5-3 8h6c0-3-1-6-3-8Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </div>
+            <p class="mt-6 text-sm leading-6 text-slate-300">Café especial, produtos frescos e um espaço acolhedor para aproveitar cada pausa do dia.</p>
+            <div class="mt-6 space-y-3">
+              <div class="flex items-center gap-3 rounded-xl bg-white/[0.04] px-4 py-3"><span class="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-400/10 text-emerald-300"><svg viewBox="0 0 20 20" class="h-4 w-4" fill="none"><path d="m5 10 3.2 3.2L15.5 6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="text-sm font-medium text-slate-200">Atendimento próximo e acessível</span></div>
+              <div class="flex items-center gap-3 rounded-xl bg-white/[0.04] px-4 py-3"><span class="flex h-8 w-8 items-center justify-center rounded-lg bg-amber-300/10 text-amber-300"><svg viewBox="0 0 20 20" class="h-4 w-4" fill="none"><path d="M10 3v7l4 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="10" cy="10" r="7" stroke="currentColor" stroke-width="1.5"/></svg></span><span class="text-sm font-medium text-slate-200">Fale diretamente com a equipe</span></div>
+            </div>
+            <a class="mt-6 flex items-center justify-between rounded-xl border border-white/10 px-4 py-3 text-sm font-semibold text-white transition hover:border-emerald-300/40 hover:bg-white/[0.04]" href="https://wa.me/5545999990000" target="_blank" rel="noopener noreferrer"><span>Iniciar conversa</span><svg viewBox="0 0 20 20" class="h-4 w-4 text-emerald-300" fill="none"><path d="M4 10h12m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+          <div class="absolute -bottom-6 -left-8 rounded-2xl border border-slate-200 bg-white px-5 py-4 shadow-soft">
+            <p class="text-xs font-medium text-slate-500">Fale com Café Exemplo</p>
+            <p class="mt-1 text-sm font-bold text-slate-900">+55 45 99999-0000</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="beneficios" class="bg-white py-20 sm:py-24">
+      <div class="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
+        <div class="max-w-2xl">
+          <p class="text-sm font-bold uppercase tracking-[.14em] text-emerald-700">Uma experiência melhor</p>
+          <h2 class="mt-4 font-display text-3xl font-bold leading-tight tracking-normal text-slate-950 sm:text-4xl">Atendimento que começa entendendo você.</h2>
+          <p class="mt-4 text-base leading-7 text-slate-600">Um contato simples para encontrar a solução que faz sentido para o que você procura.</p>
+        </div>
+        <div class="mt-11 grid gap-5 md:grid-cols-3">
+          <article class="rounded-2xl border border-slate-200 bg-white p-7 shadow-soft transition duration-200 hover:-translate-y-1 hover:shadow-lg">
+            <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-emerald-50 text-emerald-700"><svg aria-hidden="true" viewBox="0 0 24 24" class="h-6 w-6" fill="none"><path d="M8 10h8m-8 4h5m-7 6-3 1 1-4a8 8 0 1 1 3 3Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <h3 class="mt-5 font-display text-lg font-bold text-slate-900">Conversa sem complicação</h3>
+            <p class="mt-2 text-sm leading-6 text-slate-600">Tire dúvidas e conte o que você precisa em um canal direto com Café Exemplo.</p>
+          </article>
+          <article class="rounded-2xl border border-slate-200 bg-white p-7 shadow-soft transition duration-200 hover:-translate-y-1 hover:shadow-lg">
+            <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-amber-50 text-amber-700"><svg aria-hidden="true" viewBox="0 0 24 24" class="h-6 w-6" fill="none"><path d="M12 21s7-5.8 7-12a7 7 0 1 0-14 0c0 6.2 7 12 7 12Z" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="9" r="2.3" stroke="currentColor" stroke-width="1.7"/></svg></span>
+            <h3 class="mt-5 font-display text-lg font-bold text-slate-900">Presença na sua região</h3>
+            <p class="mt-2 text-sm leading-6 text-slate-600">Encontre um atendimento próximo em Foz do Iguaçu, PR, com informações claras para dar o próximo passo.</p>
+          </article>
+          <article class="rounded-2xl border border-slate-200 bg-white p-7 shadow-soft transition duration-200 hover:-translate-y-1 hover:shadow-lg">
+            <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-sky-50 text-sky-700"><svg aria-hidden="true" viewBox="0 0 24 24" class="h-6 w-6" fill="none"><path d="M5 7h14M5 12h14M5 17h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="18" cy="17" r="3" stroke="currentColor" stroke-width="1.7"/><path d="m16.7 17 1 1 1.7-2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <h3 class="mt-5 font-display text-lg font-bold text-slate-900">Informação transparente</h3>
+            <p class="mt-2 text-sm leading-6 text-slate-600">Converse sobre opções, valores e próximos passos antes de decidir.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-slate-100 py-20 sm:py-24" aria-labelledby="about-title">
+      <div class="mx-auto grid max-w-7xl items-center gap-12 px-5 sm:px-8 lg:grid-cols-2 lg:gap-20 lg:px-10">
+        <div class="relative min-h-[310px] overflow-hidden rounded-3xl bg-slate-900 p-8 sm:min-h-[380px] sm:p-10">
+          <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_80%_15%,rgba(16,185,129,.28),transparent_44%),radial-gradient(ellipse_at_10%_100%,rgba(245,158,11,.16),transparent_45%)]" aria-hidden="true"></div>
+          <div class="relative flex h-full min-h-[245px] flex-col justify-between sm:min-h-[300px]">
+            <span class="flex h-14 w-14 items-center justify-center rounded-2xl border border-white/15 bg-white/10 text-emerald-200"><svg aria-hidden="true" viewBox="0 0 24 24" class="h-7 w-7" fill="none"><path d="M12 3 4 7v5c0 5 3.5 8 8 9 4.5-1 8-4 8-9V7l-8-4Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="m8.5 12 2.2 2.2 4.8-5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <div><p class="text-sm font-medium text-emerald-200">Perto de você</p><p class="mt-2 max-w-sm font-display text-2xl font-bold leading-snug text-white sm:text-3xl">Uma conversa pode fazer toda a diferença.</p></div>
+            <div class="flex items-center gap-2 text-sm text-slate-300"><svg aria-hidden="true" viewBox="0 0 20 20" class="h-4 w-4 text-emerald-300" fill="none"><path d="M10 17s5-4.4 5-9a5 5 0 1 0-10 0c0 4.6 5 9 5 9Z" stroke="currentColor" stroke-width="1.5"/><circle cx="10" cy="8" r="1.7" stroke="currentColor" stroke-width="1.5"/></svg>Foz do Iguaçu, PR</div>
+          </div>
+        </div>
+        <div>
+          <p class="text-sm font-bold uppercase tracking-[.14em] text-emerald-700">Sobre nós</p>
+          <h2 id="about-title" class="mt-4 font-display text-3xl font-bold leading-tight tracking-normal text-slate-950 sm:text-4xl">Por que escolher a Café Exemplo?</h2>
+          <p class="mt-5 text-base leading-7 text-slate-600">Cada pessoa chega com uma necessidade diferente. Por isso, o primeiro passo é ouvir, entender o que você procura e apresentar as informações com clareza.</p>
+          <p class="mt-4 text-base leading-7 text-slate-600">A Café Exemplo está em Foz do Iguaçu, PR. Entre em contato para conhecer os serviços disponíveis, tirar suas dúvidas e decidir com tranquilidade.</p>
+          <a class="mt-7 inline-flex items-center gap-2 font-semibold text-emerald-800 underline decoration-emerald-300 underline-offset-4 transition hover:text-emerald-950" href="https://wa.me/5545999990000" target="_blank" rel="noopener noreferrer">Conheça nossos serviços<svg aria-hidden="true" viewBox="0 0 20 20" class="h-4 w-4" fill="none"><path d="M4 10h12m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white py-20 sm:py-24" aria-labelledby="services-title">
+      <div class="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
+        <div class="flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
+          <div><p class="text-sm font-bold uppercase tracking-[.14em] text-emerald-700">Soluções</p><h2 id="services-title" class="mt-3 font-display text-3xl font-bold tracking-normal text-slate-950 sm:text-4xl">Como podemos ajudar</h2></div>
+          <p class="max-w-md text-sm leading-6 text-slate-600">Conheça os serviços da Café Exemplo. Se precisar de mais detalhes, fale diretamente com a equipe.</p>
+        </div>
+        <ul class="mt-9 grid list-none gap-3 p-0 sm:grid-cols-2 lg:grid-cols-3"><li>Cafés especiais</li>
+<li>Doces e produtos frescos</li>
+<li>Pedidos para retirada</li>
+<li>Atendimento para eventos</li></ul>
+      </div>
+    </section>
+
+    <section id="avaliacoes" class="bg-slate-100 py-20 sm:py-24" aria-labelledby="reviews-title">
+      <div class="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
+        <div class="mx-auto max-w-2xl text-center">
+          <p class="text-sm font-bold uppercase tracking-[.14em] text-emerald-700">Experiências de clientes</p>
+          <h2 id="reviews-title" class="mt-3 font-display text-3xl font-bold tracking-normal text-slate-950 sm:text-4xl">Avaliações de quem já conhece</h2>
+          <p class="mt-4 text-sm leading-6 text-slate-600">Área demonstrativa: publique somente avaliações autênticas, verificadas e autorizadas pelos clientes.</p>
+        </div>
+        <div class="mt-10 grid gap-5 md:grid-cols-3">
+          <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-soft">
+            <div class="flex gap-1 text-amber-500" aria-label="Espaço para nota real do cliente"><svg aria-hidden="true" viewBox="0 0 20 20" class="h-4 w-4" fill="none"><path d="m10 2 2.4 5 5.5.8-4 3.9.9 5.5-4.8-2.6-4.8 2.6.9-5.5-4-3.9 5.5-.8L10 2Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg><svg aria-hidden="true" viewBox="0 0 20 20" class="h-4 w-4" fill="none"><path d="m10 2 2.4 5 5.5.8-4 3.9.9 5.5-4.8-2.6-4.8 2.6.9-5.5-4-3.9 5.5-.8L10 2Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg><svg aria-hidden="true" viewBox="0 0 20 20" class="h-4 w-4" fill="none"><path d="m10 2 2.4 5 5.5.8-4 3.9.9 5.5-4.8-2.6-4.8 2.6.9-5.5-4-3.9 5.5-.8L10 2Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg><svg aria-hidden="true" viewBox="0 0 20 20" class="h-4 w-4" fill="none"><path d="m10 2 2.4 5 5.5.8-4 3.9.9 5.5-4.8-2.6-4.8 2.6.9-5.5-4-3.9 5.5-.8L10 2Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg><svg aria-hidden="true" viewBox="0 0 20 20" class="h-4 w-4" fill="none"><path d="m10 2 2.4 5 5.5.8-4 3.9.9 5.5-4.8-2.6-4.8 2.6.9-5.5-4-3.9 5.5-.8L10 2Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg></div>
+            <p class="mt-5 text-sm leading-6 text-slate-500">Insira aqui uma avaliação real do cliente, sem alterar o sentido do depoimento.</p>
+            <div class="mt-6 border-t border-slate-100 pt-4"><p class="text-sm font-semibold text-slate-900">Nome com autorização</p><p class="mt-1 text-xs text-slate-500">Cliente verificado</p></div>
+          </article>
+          <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-soft">
+            <div class="flex gap-1 text-amber-500" aria-label="Espaço para nota real do cliente"><svg aria-hidden="true" viewBox="0 0 20 20" class="h-4 w-4" fill="none"><path d="m10 2 2.4 5 5.5.8-4 3.9.9 5.5-4.8-2.6-4.8 2.6.9-5.5-4-3.9 5.5-.8L10 2Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg><svg aria-hidden="true" viewBox="0 0 20 20" class="h-4 w-4" fill="none"><path d="m10 2 2.4 5 5.5.8-4 3.9.9 5.5-4.8-2.6-4.8 2.6.9-5.5-4-3.9 5.5-.8L10 2Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg><svg aria-hidden="true" viewBox="0 0 20 20" class="h-4 w-4" fill="none"><path d="m10 2 2.4 5 5.5.8-4 3.9.9 5.5-4.8-2.6-4.8 2.6.9-5.5-4-3.9 5.5-.8L10 2Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg><svg aria-hidden="true" viewBox="0 0 20 20" class="h-4 w-4" fill="none"><path d="m10 2 2.4 5 5.5.8-4 3.9.9 5.5-4.8-2.6-4.8 2.6.9-5.5-4-3.9 5.5-.8L10 2Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg><svg aria-hidden="true" viewBox="0 0 20 20" class="h-4 w-4" fill="none"><path d="m10 2 2.4 5 5.5.8-4 3.9.9 5.5-4.8-2.6-4.8 2.6.9-5.5-4-3.9 5.5-.8L10 2Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg></div>
+            <p class="mt-5 text-sm leading-6 text-slate-500">Use este espaço para compartilhar uma experiência verdadeira, com consentimento.</p>
+            <div class="mt-6 border-t border-slate-100 pt-4"><p class="text-sm font-semibold text-slate-900">Nome com autorização</p><p class="mt-1 text-xs text-slate-500">Cliente verificado</p></div>
+          </article>
+          <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-soft">
+            <div class="flex gap-1 text-amber-500" aria-label="Espaço para nota real do cliente"><svg aria-hidden="true" viewBox="0 0 20 20" class="h-4 w-4" fill="none"><path d="m10 2 2.4 5 5.5.8-4 3.9.9 5.5-4.8-2.6-4.8 2.6.9-5.5-4-3.9 5.5-.8L10 2Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg><svg aria-hidden="true" viewBox="0 0 20 20" class="h-4 w-4" fill="none"><path d="m10 2 2.4 5 5.5.8-4 3.9.9 5.5-4.8-2.6-4.8 2.6.9-5.5-4-3.9 5.5-.8L10 2Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg><svg aria-hidden="true" viewBox="0 0 20 20" class="h-4 w-4" fill="none"><path d="m10 2 2.4 5 5.5.8-4 3.9.9 5.5-4.8-2.6-4.8 2.6.9-5.5-4-3.9 5.5-.8L10 2Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg><svg aria-hidden="true" viewBox="0 0 20 20" class="h-4 w-4" fill="none"><path d="m10 2 2.4 5 5.5.8-4 3.9.9 5.5-4.8-2.6-4.8 2.6.9-5.5-4-3.9 5.5-.8L10 2Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg><svg aria-hidden="true" viewBox="0 0 20 20" class="h-4 w-4" fill="none"><path d="m10 2 2.4 5 5.5.8-4 3.9.9 5.5-4.8-2.6-4.8 2.6.9-5.5-4-3.9 5.5-.8L10 2Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg></div>
+            <p class="mt-5 text-sm leading-6 text-slate-500">Inclua apenas um depoimento publicado com permissão expressa do autor.</p>
+            <div class="mt-6 border-t border-slate-100 pt-4"><p class="text-sm font-semibold text-slate-900">Nome com autorização</p><p class="mt-1 text-xs text-slate-500">Cliente verificado</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white py-20 sm:py-24">
+      <div class="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
+        <div class="relative overflow-hidden rounded-3xl bg-emerald-800 px-6 py-12 text-white shadow-xl shadow-emerald-950/10 sm:px-12 sm:py-14 lg:px-16">
+          <div class="pointer-events-none absolute -right-16 -top-32 h-80 w-80 rounded-full border border-white/10" aria-hidden="true"></div>
+          <div class="pointer-events-none absolute -right-5 -top-20 h-60 w-60 rounded-full border border-white/10" aria-hidden="true"></div>
+          <div class="relative flex flex-col items-start justify-between gap-8 md:flex-row md:items-center">
+            <div class="max-w-2xl"><p class="text-sm font-semibold text-emerald-200">Estamos por aqui</p><h2 class="mt-3 font-display text-3xl font-bold leading-tight tracking-normal sm:text-4xl">Vamos conversar sobre o que você precisa?</h2><p class="mt-4 text-sm leading-6 text-emerald-50/80">Entre em contato com Café Exemplo em Foz do Iguaçu, PR.</p></div>
+            <a class="inline-flex min-h-14 shrink-0 items-center justify-center gap-3 rounded-xl bg-white px-6 py-3.5 text-sm font-bold text-emerald-900 transition hover:bg-emerald-50" href="https://wa.me/5545999990000" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24" class="h-5 w-5" fill="currentColor"><path d="M12.04 2a9.93 9.93 0 0 0-8.52 15.04L2.2 22l5.08-1.3A10 10 0 1 0 12.04 2Zm0 18.18c-1.54 0-3.05-.41-4.36-1.19l-.31-.18-3.01.77.8-2.93-.2-.31a8.17 8.17 0 1 1 7.08 3.84Zm4.49-6.12c-.25-.13-1.48-.73-1.71-.81-.23-.08-.4-.13-.57.13-.17.25-.65.81-.8.98-.15.17-.3.19-.55.06-.25-.13-1.06-.39-2.02-1.24-.75-.67-1.25-1.5-1.4-1.75-.15-.25-.02-.39.11-.52.11-.11.25-.3.38-.44.13-.15.17-.25.25-.42.08-.17.04-.32-.02-.44-.06-.13-.57-1.36-.78-1.86-.21-.49-.42-.42-.57-.43h-.49c-.17 0-.44.06-.67.32-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.02 2.61.13.17 1.77 2.7 4.28 3.79.6.26 1.07.41 1.44.52.6.19 1.14.16 1.57.1.48-.07 1.48-.61 1.69-1.2.21-.59.21-1.1.15-1.2-.06-.1-.23-.17-.48-.3Z"/></svg>Chamar no WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-200 bg-slate-50">
+    <div class="mx-auto flex max-w-7xl flex-col gap-3 px-5 py-7 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between sm:px-8 lg:px-10">
+      <p class="font-semibold text-slate-700">Café Exemplo <span class="mx-1 text-slate-300">·</span> Foz do Iguaçu, PR</p>
+      <p>&copy; 2026 Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <a class="float-pulse fixed bottom-5 right-5 z-30 flex h-14 w-14 items-center justify-center rounded-full bg-emerald-600 text-white transition hover:bg-emerald-700 sm:bottom-7 sm:right-7" href="https://wa.me/5545999990000" target="_blank" rel="noopener noreferrer" aria-label="Fale com Café Exemplo pelo WhatsApp">
+    <svg aria-hidden="true" viewBox="0 0 24 24" class="h-7 w-7" fill="currentColor"><path d="M12.04 2a9.93 9.93 0 0 0-8.52 15.04L2.2 22l5.08-1.3A10 10 0 1 0 12.04 2Zm0 18.18c-1.54 0-3.05-.41-4.36-1.19l-.31-.18-3.01.77.8-2.93-.2-.31a8.17 8.17 0 1 1 7.08 3.84Zm4.49-6.12c-.25-.13-1.48-.73-1.71-.81-.23-.08-.4-.13-.57.13-.17.25-.65.81-.8.98-.15.17-.3.19-.55.06-.25-.13-1.06-.39-2.02-1.24-.75-.67-1.25-1.5-1.4-1.75-.15-.25-.02-.39.11-.52.11-.11.25-.3.38-.44.13-.15.17-.25.25-.42.08-.17.04-.32-.02-.44-.06-.13-.57-1.36-.78-1.86-.21-.49-.42-.42-.57-.43h-.49c-.17 0-.44.06-.67.32-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.02 2.61.13.17 1.77 2.7 4.28 3.79.6.26 1.07.41 1.44.52.6.19 1.14.16 1.57.1.48-.07 1.48-.61 1.69-1.2.21-.59.21-1.1.15-1.2-.06-.1-.23-.17-.48-.3Z"/></svg>
+  </a>
+</body>
+</html>

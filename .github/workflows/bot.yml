@@ -1,0 +1,35 @@
+name: Pesquisa de estabelecimentos sem site
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pesquisar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Baixar o repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependências
+        run: python -m pip install -r requirements.txt
+
+      - name: Pesquisar estabelecimentos
+        run: python bot_cacador.py --output leads.csv
+
+      - name: Disponibilizar CSV como artefato
+        uses: actions/upload-artifact@v4
+        with:
+          name: estabelecimentos-sem-site
+          path: leads.csv
+          if-no-files-found: error
+          retention-days: 7
