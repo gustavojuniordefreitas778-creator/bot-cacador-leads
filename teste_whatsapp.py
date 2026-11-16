@@ -5,24 +5,20 @@ import unicodedata
 def limpar_slug(texto):
     nfkd = unicodedata.normalize('NFKD', str(texto))
     palavra_sem_acento = "".join([c for c in nfkd if not unicodedata.combining(c)])
-    return palavra_sem_acento.lower().replace(' ', '-').replace('ç', 'c').replace('.', '')
+    return palavra_sem_acento.lower().replace(' ', '-').replace('ç', 'c').replace('.', '').strip()
 
 try:
     df = pd.read_csv("leads.csv")
 except Exception as e:
-    print(f"Erro ao ler o ficheiro leads.csv: {e}")
-    exit()
-
-if df.empty:
-    print("O ficheiro leads.csv está vazio.")
+    print(f"Erro ao ler leads.csv: {e}")
     exit()
 
 for index, lead in df.iterrows():
-    nome_empresa = lead.get("nome_empresa", lead.get("name", "Empresa Local"))
-    cidade = lead.get("cidade", lead.get("city", "Parana"))
-    telefone = str(lead.get("whatsapp", lead.get("phone", lead.get("telefone", "")))).strip()
+    nome_empresa = str(lead.get("nome", "Empresa")).strip()
+    cidade = str(lead.get("cidade", "Parana")).strip()
+    telefone = str(lead.get("telefone", "")).strip()
 
-    if not telefone or telefone.lower() == "nan" or telefone.lower() == "none":
+    if not telefone or telefone.lower() == "nan" or telefone.lower() == "none" or telefone == "":
         continue
 
     telefone_limpo = "".join(filter(str.isdigit, telefone))
