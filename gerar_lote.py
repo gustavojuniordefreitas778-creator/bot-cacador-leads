@@ -1,7 +1,7 @@
 import csv
 import os
 import re
-from gerador_site import gerar_site  # Certifique-se de que sua função principal em gerador_site.py se chama gerar_site ou ajuste a importação
+from gerador_site import render_page
 
 def criar_slug(texto):
     texto = texto.lower()
@@ -55,18 +55,15 @@ def processar_lote(csv_path="leads.csv", limite=None):
         }
 
         try:
-            # Se a sua função principal no gerador_site.py aceitar um dicionário, chamamos ela diretamente:
-            # (Caso o seu script use argparse, podemos adaptar para importar a função interna de geração)
             output_dir = os.path.join("public", slug)
             os.makedirs(output_dir, exist_ok=True)
-            
-            # Gerando a página (simulando a chamada interna)
+
             print(f"[{i}/{len(linhas)}] Gerando: {nome} ({cidade}) -> public/{slug}/")
-            
-            # Aqui você pode chamar a função do seu gerador ou reutilizar a lógica dele
-            # Exemplo simulado de salvamento se importar a lógica:
-            # gerar_site(dados_cliente)
-            
+            pagina = render_page(dados_cliente)
+            output_path = os.path.join(output_dir, "index.html")
+            with open(output_path, mode="w", encoding="utf-8") as arquivo:
+                arquivo.write(pagina)
+
             sucessos += 1
         except Exception as e:
             print(f"Erro ao gerar para {nome}: {e}")
