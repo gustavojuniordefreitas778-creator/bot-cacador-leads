@@ -1,0 +1,581 @@
+﻿nome,cidade,pais,categoria,latitude,longitude,osm
+Farma Util,Foz do Iguaçu,Brasil,pharmacy,-25.5426449,-54.5865199,https://www.openstreetmap.org/node/532563270
+Adorela,Foz do Iguaçu,Brasil,bakery,-25.52216,-54.5581978,https://www.openstreetmap.org/node/1473305851
+Vó Bertila,Foz do Iguaçu,Brasil,restaurant,-25.5398061,-54.581654,https://www.openstreetmap.org/node/1473637654
+Muffato - Republica Argentina,Foz do Iguaçu,Brasil,supermarket,-25.5369775,-54.5431045,https://www.openstreetmap.org/node/1474185889
+Cafeteria Stratto Caffe,Foz do Iguaçu,Brasil,cafe,-25.436015,-54.5965714,https://www.openstreetmap.org/node/1975550846
+City Beer,Foz do Iguaçu,Brasil,restaurant,-25.543094,-54.581898,https://www.openstreetmap.org/node/2020817650
+Beduíno's,Foz do Iguaçu,Brasil,restaurant,-25.5457608,-54.5825045,https://www.openstreetmap.org/node/2131674791
+Restaurante Cataratas do Iguaçu,Foz do Iguaçu,Brasil,restaurant,-25.6926307,-54.4338639,https://www.openstreetmap.org/node/2515368552
+Restaurante Tirol,Foz do Iguaçu,Brasil,restaurant,-25.5430298,-54.5822071,https://www.openstreetmap.org/node/3015506133
+La Strega,Foz do Iguaçu,Brasil,restaurant,-25.5450178,-54.582098,https://www.openstreetmap.org/node/3017258958
+Churrascaria do Gaúcho,Foz do Iguaçu,Brasil,restaurant,-25.5456492,-54.5820933,https://www.openstreetmap.org/node/3017258959
+Casa da Planta,Foz do Iguaçu,Brasil,florist,-25.4908994,-54.582837,https://www.openstreetmap.org/node/3131164622
+Locanda,Foz do Iguaçu,Brasil,restaurant,-25.5385793,-54.5889294,https://www.openstreetmap.org/node/3131166057
+Delícia's,Foz do Iguaçu,Brasil,restaurant,-25.5406906,-54.5878763,https://www.openstreetmap.org/node/3131166058
+Globão,Foz do Iguaçu,Brasil,pharmacy,-25.5367753,-54.5870051,https://www.openstreetmap.org/node/3131166059
+Gaucha,Foz do Iguaçu,Brasil,clothes,-25.5372096,-54.5874072,https://www.openstreetmap.org/node/3131166060
+Guia Mar,Foz do Iguaçu,Brasil,laundry,-25.5354226,-54.5872323,https://www.openstreetmap.org/node/3131166061
+Tarini Móveis,Foz do Iguaçu,Brasil,furniture,-25.531536,-54.5867904,https://www.openstreetmap.org/node/3131166062
+Bradesco,Foz do Iguaçu,Brasil,bank,-25.5156897,-54.5854972,https://www.openstreetmap.org/node/3131166065
+DASC,Foz do Iguaçu,Brasil,pharmacy,-25.4677833,-54.5848139,https://www.openstreetmap.org/node/3131166069
+Roma,Foz do Iguaçu,Brasil,bakery,-25.5409683,-54.5884232,https://www.openstreetmap.org/node/3131167703
+Sahara Café & Confeitaria,Foz do Iguaçu,Brasil,pastry,-25.5388058,-54.5874764,https://www.openstreetmap.org/node/3131167704
+Mobille Planejados,Foz do Iguaçu,Brasil,furniture,-25.5244392,-54.5856552,https://www.openstreetmap.org/node/3131167705
+Almeida Bebidas,Foz do Iguaçu,Brasil,beverages,-25.4802335,-54.5826152,https://www.openstreetmap.org/node/3131169273
+Cheiro Verde,Foz do Iguaçu,Brasil,restaurant,-25.5375403,-54.5884742,https://www.openstreetmap.org/node/3133620724
+Autocenter,Foz do Iguaçu,Brasil,car_repair,-25.5303973,-54.5865758,https://www.openstreetmap.org/node/3133621218
+Milenium,Foz do Iguaçu,Brasil,car_parts,-25.5133129,-54.5853229,https://www.openstreetmap.org/node/3133621227
+Pastel Setti,Foz do Iguaçu,Brasil,fast_food,-25.5380509,-54.5869033,https://www.openstreetmap.org/node/3133624389
+Floricultura JK,Foz do Iguaçu,Brasil,florist,-25.5383997,-54.587419,https://www.openstreetmap.org/node/3133624390
+Chanson,Foz do Iguaçu,Brasil,car,-25.5284958,-54.5858483,https://www.openstreetmap.org/node/3133624406
+Farmácia Cataratas,Foz do Iguaçu,Brasil,pharmacy,-25.5233161,-54.5860521,https://www.openstreetmap.org/node/3133624407
+Automais,Foz do Iguaçu,Brasil,car_repair,-25.5233356,-54.5854111,https://www.openstreetmap.org/node/3133624408
+Farmavida,Foz do Iguaçu,Brasil,pharmacy,-25.5220236,-54.5859824,https://www.openstreetmap.org/node/3133624409
+Inovação,Foz do Iguaçu,Brasil,hairdresser,-25.5380921,-54.5874335,https://www.openstreetmap.org/node/3133624789
+Cantina Dona Maria,Foz do Iguaçu,Brasil,restaurant,-25.5064057,-54.5856981,https://www.openstreetmap.org/node/3133624818
+Hokila,Foz do Iguaçu,Brasil,restaurant,-25.5379372,-54.5874496,https://www.openstreetmap.org/node/3133624831
+Farmácia Preço Justo,Foz do Iguaçu,Brasil,pharmacy,-25.5149929,-54.5854757,https://www.openstreetmap.org/node/3133624833
+Atacadão da Embalagem,Foz do Iguaçu,Brasil,packing,-25.5103194,-54.5850839,https://www.openstreetmap.org/node/3133624839
+Tintapar,Foz do Iguaçu,Brasil,hardware,-25.5121452,-54.5852824,https://www.openstreetmap.org/node/3133624841
+Rose's Lavanderia,Foz do Iguaçu,Brasil,laundry,-25.5282017,-54.5864371,https://www.openstreetmap.org/node/3133624854
+Brekailo,Foz do Iguaçu,Brasil,dentist,-25.5379051,-54.5884627,https://www.openstreetmap.org/node/3133624859
+Jaú Autopeças,Foz do Iguaçu,Brasil,car_parts,-25.5059615,-54.5870365,https://www.openstreetmap.org/node/3133625075
+Edgar Autopeças,Foz do Iguaçu,Brasil,car_parts,-25.5066927,-54.5880035,https://www.openstreetmap.org/node/3133625076
+Drogafoz,Foz do Iguaçu,Brasil,pharmacy,-25.5098528,-54.5956437,https://www.openstreetmap.org/node/3133625179
+Odonto Sorriso,Foz do Iguaçu,Brasil,dentist,-25.5130233,-54.5852526,https://www.openstreetmap.org/node/3133625194
+Zoo Aves,Foz do Iguaçu,Brasil,veterinary,-25.5126149,-54.585328,https://www.openstreetmap.org/node/3133625261
+Todeschini,Foz do Iguaçu,Brasil,furniture,-25.51284,-54.5852689,https://www.openstreetmap.org/node/3133625262
+Búfalo Branco,Foz do Iguaçu,Brasil,restaurant,-25.5359478,-54.5883991,https://www.openstreetmap.org/node/3133625417
+Victoria,Foz do Iguaçu,Brasil,restaurant,-25.5477419,-54.5777298,https://www.openstreetmap.org/node/3134313010
+Vida Bela,Foz do Iguaçu,Brasil,clothes,-25.5381308,-54.5869292,https://www.openstreetmap.org/node/3134315356
+Cantina Catedral,Foz do Iguaçu,Brasil,restaurant,-25.5467777,-54.580852,https://www.openstreetmap.org/node/3134316106
+Foz Bel,Foz do Iguaçu,Brasil,beverages,-25.5482941,-54.5768315,https://www.openstreetmap.org/node/3134316107
+Ouvidoria,Foz do Iguaçu,Brasil,bar,-25.5494574,-54.5745029,https://www.openstreetmap.org/node/3134316109
+Bioética,Foz do Iguaçu,Brasil,pharmacy,-25.5511312,-54.5719464,https://www.openstreetmap.org/node/3134316110
+Tchula,Foz do Iguaçu,Brasil,restaurant,-25.5512737,-54.5717509,https://www.openstreetmap.org/node/3134316111
+Farmácias Preço Justo,Foz do Iguaçu,Brasil,pharmacy,-25.5518571,-54.5707609,https://www.openstreetmap.org/node/3134316112
+Tavolo Churrascaria & Petiscaria,Foz do Iguaçu,Brasil,restaurant,-25.5538463,-54.5677461,https://www.openstreetmap.org/node/3134316118
+360 vibes,Foz do Iguaçu,Brasil,restaurant,-25.5472465,-54.5821798,https://www.openstreetmap.org/node/3134316121
+Vila Brasil,Foz do Iguaçu,Brasil,gift,-25.5467949,-54.5807836,https://www.openstreetmap.org/node/3134316966
+Água de coco,Foz do Iguaçu,Brasil,restaurant,-25.5405968,-54.5870874,https://www.openstreetmap.org/node/3134318272
+Perfect Clean,Foz do Iguaçu,Brasil,car_wash,-25.5384466,-54.5759571,https://www.openstreetmap.org/node/3136115176
+Sushi Chefe,Foz do Iguaçu,Brasil,fast_food,-25.5472466,-54.5777306,https://www.openstreetmap.org/node/3136115180
+Cooperfarma,Foz do Iguaçu,Brasil,pharmacy,-25.5514192,-54.5722073,https://www.openstreetmap.org/node/3136115181
+Cataratas Materiais de Construção,Foz do Iguaçu,Brasil,hardware,-25.5516473,-54.5718132,https://www.openstreetmap.org/node/3136115182
+Jet Chicken,Foz do Iguaçu,Brasil,restaurant,-25.551594,-54.5711814,https://www.openstreetmap.org/node/3136115183
+Santander,Foz do Iguaçu,Brasil,bank,-25.5426292,-54.5872506,https://www.openstreetmap.org/node/3136115184
+Antonio,Foz do Iguaçu,Brasil,restaurant,-25.5345706,-54.5866264,https://www.openstreetmap.org/node/3136115185
+Shawarmania - Casa da Esfiha,Foz do Iguaçu,Brasil,restaurant,-25.5390452,-54.5874867,https://www.openstreetmap.org/node/3136115374
+Farmácia Americana,Foz do Iguaçu,Brasil,pharmacy,-25.5383543,-54.5869825,https://www.openstreetmap.org/node/3136115376
+Pizza Peroni,Foz do Iguaçu,Brasil,restaurant,-25.5344128,-54.5865874,https://www.openstreetmap.org/node/3136115377
+Casa da Esfiha Beirut,Foz do Iguaçu,Brasil,restaurant,-25.5386963,-54.5874761,https://www.openstreetmap.org/node/3136115530
+Raquel Modas,Foz do Iguaçu,Brasil,clothes,-25.5368739,-54.5868286,https://www.openstreetmap.org/node/3136115532
+Eugênio Cabeleireiros,Foz do Iguaçu,Brasil,hairdresser,-25.5480003,-54.5779325,https://www.openstreetmap.org/node/3136115864
+Farmácia Minipreço,Foz do Iguaçu,Brasil,pharmacy,-25.5517876,-54.5715361,https://www.openstreetmap.org/node/3136115865
+Restaurante China,Foz do Iguaçu,Brasil,restaurant,-25.5538436,-54.568598,https://www.openstreetmap.org/node/3136115866
+Dona Koruja,Foz do Iguaçu,Brasil,clothes,-25.5342568,-54.5865293,https://www.openstreetmap.org/node/3136115867
+Castelo Libanês,Foz do Iguaçu,Brasil,restaurant,-25.5178889,-54.5798257,https://www.openstreetmap.org/node/3139250114
+Barbarela Sucos e Lanches,Foz do Iguaçu,Brasil,fast_food,-25.5440883,-54.5862274,https://www.openstreetmap.org/node/3538712473
+Vô Luiz Pizzeria e Cucina,Foz do Iguaçu,Brasil,restaurant,-25.5395907,-54.5813233,https://www.openstreetmap.org/node/3595285199
+Brasa Burger,Foz do Iguaçu,Brasil,fast_food,-25.536878,-54.5857079,https://www.openstreetmap.org/node/3853331540
+Oriental Restaurante,Foz do Iguaçu,Brasil,restaurant,-25.538293,-54.5829723,https://www.openstreetmap.org/node/3924692171
+Dia a Dia,Foz do Iguaçu,Brasil,bakery,-25.5425526,-54.5805317,https://www.openstreetmap.org/node/3924692173
+Macarrão In Box,Foz do Iguaçu,Brasil,restaurant,-25.539542,-54.5830852,https://www.openstreetmap.org/node/3924692183
+Tio Gil Lanches,Foz do Iguaçu,Brasil,fast_food,-25.5387845,-54.5804727,https://www.openstreetmap.org/node/3924692186
+Santo Cupim,Foz do Iguaçu,Brasil,restaurant,-25.5408698,-54.5806173,https://www.openstreetmap.org/node/3924692194
+Churrasquito,Foz do Iguaçu,Brasil,restaurant,-25.541073,-54.5817626,https://www.openstreetmap.org/node/3924692195
+Confeitaria Marias & Maria,Foz do Iguaçu,Brasil,pastry,-25.5384903,-54.5857708,https://www.openstreetmap.org/node/4202711393
+Itaú,Foz do Iguaçu,Brasil,bank,-25.5418336,-54.5864083,https://www.openstreetmap.org/node/4202746891
+Oticas Carol,Foz do Iguaçu,Brasil,optician,-25.5407102,-54.5862688,https://www.openstreetmap.org/node/4202746892
+Cooperfarma,Foz do Iguaçu,Brasil,pharmacy,-25.5405759,-54.5862464,https://www.openstreetmap.org/node/4202746893
+Otica Iris,Foz do Iguaçu,Brasil,optician,-25.5405,-54.5862535,https://www.openstreetmap.org/node/4202746894
+Droga Raia,Foz do Iguaçu,Brasil,pharmacy,-25.5417585,-54.5863971,https://www.openstreetmap.org/node/4202759490
+Cooperfarma,Foz do Iguaçu,Brasil,pharmacy,-25.5358941,-54.5872926,https://www.openstreetmap.org/node/4202766790
+Amarantha,Foz do Iguaçu,Brasil,bar,-25.5339755,-54.5867812,https://www.openstreetmap.org/node/4202789489
+Líder,Foz do Iguaçu,Brasil,laundry,-25.5960648,-54.5208083,https://www.openstreetmap.org/node/4222684287
+Bettu,Foz do Iguaçu,Brasil,supermarket,-25.5826434,-54.5392955,https://www.openstreetmap.org/node/4222699339
+Vivir más,Foz do Iguaçu,Brasil,pharmacy,-25.5826763,-54.5393303,https://www.openstreetmap.org/node/4222699340
+Cantinho da Brasil,Foz do Iguaçu,Brasil,restaurant,-25.5356882,-54.5859225,https://www.openstreetmap.org/node/4243387394
+Camping Clube do Brasil,Foz do Iguaçu,Brasil,restaurant,-25.6110504,-54.4769897,https://www.openstreetmap.org/node/4325427289
+Bistrô da Mata,Foz do Iguaçu,Brasil,cafe,-25.6158576,-54.484397,https://www.openstreetmap.org/node/4363091694
+Zeppelin Old Bar,Foz do Iguaçu,Brasil,bar,-25.5493241,-54.5742399,https://www.openstreetmap.org/node/4397177803
+Imperador dos Camarões,Foz do Iguaçu,Brasil,restaurant,-25.5471296,-54.5864096,https://www.openstreetmap.org/node/4397192495
+Casa da Picanha Mocellin,Foz do Iguaçu,Brasil,restaurant,-25.5005859,-54.5566437,https://www.openstreetmap.org/node/4429990907
+Ortoplan,Foz do Iguaçu,Brasil,dentist,-25.5352962,-54.5885849,https://www.openstreetmap.org/node/4438516690
+Empório com Arte,Foz do Iguaçu,Brasil,restaurant,-25.5499179,-54.5737072,https://www.openstreetmap.org/node/4576040998
+Banco do Brasil,Foz do Iguaçu,Brasil,bank,-25.5162504,-54.5855281,https://www.openstreetmap.org/node/4581732589
+Porto Kattamaram,Foz do Iguaçu,Brasil,restaurant,-25.4366795,-54.5583704,https://www.openstreetmap.org/node/4581779493
+Panorama Home Center,Foz do Iguaçu,Brasil,hardware,-25.5534854,-54.5690431,https://www.openstreetmap.org/node/4582597198
+Vila Iguassu Restaurante,Foz do Iguaçu,Brasil,restaurant,-25.5351566,-54.5857614,https://www.openstreetmap.org/node/4585274989
+Aliança Veículos,Foz do Iguaçu,Brasil,car,-25.5241,-54.5855745,https://www.openstreetmap.org/node/4585274990
+Buffet Grill Super Muffato,Foz do Iguaçu,Brasil,restaurant,-25.5467991,-54.5781967,https://www.openstreetmap.org/node/4587921691
+Ponto Certo Churrascaria,Foz do Iguaçu,Brasil,restaurant,-25.5474024,-54.577392,https://www.openstreetmap.org/node/4587954789
+Mais Sabor Padaria e Confeitaria,Foz do Iguaçu,Brasil,bakery,-25.5388777,-54.5735684,https://www.openstreetmap.org/node/4588946489
+Super Muffato - Cataratas JL Shopping,Foz do Iguaçu,Brasil,supermarket,-25.5332399,-54.5749206,https://www.openstreetmap.org/node/4589402300
+Buffet Livre,Foz do Iguaçu,Brasil,restaurant,-25.5493594,-54.5751671,https://www.openstreetmap.org/node/4606091390
+Casa dos Parafusos,Foz do Iguaçu,Brasil,hardware,-25.5296405,-54.5864651,https://www.openstreetmap.org/node/4633994589
+Servicio técnico de Everest en foz,Foz do Iguaçu,Brasil,electronics,-25.5337187,-54.558458,https://www.openstreetmap.org/node/4663411401
+Materiais de Construcao J.A,Foz do Iguaçu,Brasil,hardware,-25.5364159,-54.5336196,https://www.openstreetmap.org/node/4674793708
+Sodiê Doces,Foz do Iguaçu,Brasil,confectionery,-25.5429776,-54.5850254,https://www.openstreetmap.org/node/4690737158
+Bookafé Centro,Foz do Iguaçu,Brasil,cafe,-25.5443717,-54.5834152,https://www.openstreetmap.org/node/4690737159
+Restaurante JK,Foz do Iguaçu,Brasil,restaurant,-25.5185092,-54.5862061,https://www.openstreetmap.org/node/4762076071
+Itaipu Binacional,Foz do Iguaçu,Brasil,ticket,-25.4470172,-54.5840534,https://www.openstreetmap.org/node/4804546557
+Mahatta Hookan Bar,Foz do Iguaçu,Brasil,bar,-25.500102,-54.5567316,https://www.openstreetmap.org/node/4901402221
+Jauense Confeitaria,Foz do Iguaçu,Brasil,pastry,-25.5417875,-54.5876101,https://www.openstreetmap.org/node/4903794521
+Farmácia Dal Di,Foz do Iguaçu,Brasil,pharmacy,-25.5472982,-54.5786299,https://www.openstreetmap.org/node/4939435662
+M3 Pneus,Foz do Iguaçu,Brasil,tyres,-25.5137409,-54.5854828,https://www.openstreetmap.org/node/4943226917
+Lotérica Esperança,Foz do Iguaçu,Brasil,lottery,-25.5342045,-54.5858181,https://www.openstreetmap.org/node/4943227325
+Nissei,Foz do Iguaçu,Brasil,pharmacy,-25.5393498,-54.5869714,https://www.openstreetmap.org/node/4943227326
+Óticas Visiolux,Foz do Iguaçu,Brasil,optician,-25.5446969,-54.5851421,https://www.openstreetmap.org/node/4943227327
+Suze Modas,Foz do Iguaçu,Brasil,clothes,-25.547169,-54.5790656,https://www.openstreetmap.org/node/4943227328
+AgroShopping,Foz do Iguaçu,Brasil,trade,-25.5122218,-54.584501,https://www.openstreetmap.org/node/4947856451
+Ortobom,Foz do Iguaçu,Brasil,bed,-25.5169385,-54.5856518,https://www.openstreetmap.org/node/4947880933
+Suprema,Foz do Iguaçu,Brasil,bakery,-25.5451882,-54.5852065,https://www.openstreetmap.org/node/4947966794
+Óticas Lunelli,Foz do Iguaçu,Brasil,optician,-25.5418607,-54.5849678,https://www.openstreetmap.org/node/4947966799
+Sicoob,Foz do Iguaçu,Brasil,bank,-25.5369066,-54.584595,https://www.openstreetmap.org/node/4947966800
+Bel Art Maison,Foz do Iguaçu,Brasil,clothes,-25.5321073,-54.5868266,https://www.openstreetmap.org/node/4947966806
+Boka Loka,Foz do Iguaçu,Brasil,restaurant,-25.5281283,-54.5858207,https://www.openstreetmap.org/node/4947966810
+Restaurante Barracão,Foz do Iguaçu,Brasil,restaurant,-25.4952647,-54.5712296,https://www.openstreetmap.org/node/4993558521
+McDonald's,Foz do Iguaçu,Brasil,fast_food,-25.5690987,-54.557752,https://www.openstreetmap.org/node/5102243621
+Comida Oriental,Foz do Iguaçu,Brasil,restaurant,-25.5506249,-54.5732902,https://www.openstreetmap.org/node/5105346424
+Ubud Cafe,Foz do Iguaçu,Brasil,restaurant,-25.5208886,-54.5636278,https://www.openstreetmap.org/node/5105346425
+Subway,Foz do Iguaçu,Brasil,fast_food,-25.5207402,-54.5634687,https://www.openstreetmap.org/node/5105388324
+Doce Delicia,Foz do Iguaçu,Brasil,restaurant,-25.5208093,-54.5635486,https://www.openstreetmap.org/node/5105388325
+Santa Maria,Foz do Iguaçu,Brasil,pharmacy,-25.5209721,-54.5637024,https://www.openstreetmap.org/node/5105390521
+Sabbor saude,Foz do Iguaçu,Brasil,restaurant,-25.5374165,-54.5829395,https://www.openstreetmap.org/node/5141862522
+Markito,Foz do Iguaçu,Brasil,restaurant,-25.5457327,-54.5869392,https://www.openstreetmap.org/node/5145998050
+Copyvic - Outsourcing de impressão,Foz do Iguaçu,Brasil,copyshop,-25.493118,-54.5673689,https://www.openstreetmap.org/node/5218302537
+Giva Restaurantes,Foz do Iguaçu,Brasil,restaurant,-25.4944556,-54.5673904,https://www.openstreetmap.org/node/5218302538
+Bettos pizza,Foz do Iguaçu,Brasil,restaurant,-25.4898903,-54.5711715,https://www.openstreetmap.org/node/5253225921
+Jovane Bonés,Foz do Iguaçu,Brasil,clothes,-25.5082217,-54.5928682,https://www.openstreetmap.org/node/5285127186
+Auto Peças Marcelo,Foz do Iguaçu,Brasil,car_parts,-25.5061265,-54.5865557,https://www.openstreetmap.org/node/5285127194
+Companhia do Churrasco,Foz do Iguaçu,Brasil,restaurant,-25.5332939,-54.5753447,https://www.openstreetmap.org/node/5287806145
+McDonald's,Foz do Iguaçu,Brasil,fast_food,-25.5336224,-54.5755237,https://www.openstreetmap.org/node/5287806146
+Jinjin Culinária Asiática,Foz do Iguaçu,Brasil,restaurant,-25.5333235,-54.5753065,https://www.openstreetmap.org/node/5287806147
+Griletto,Foz do Iguaçu,Brasil,restaurant,-25.5333598,-54.5752837,https://www.openstreetmap.org/node/5287806148
+Piatto,Foz do Iguaçu,Brasil,restaurant,-25.5334433,-54.575273,https://www.openstreetmap.org/node/5287806150
+Ponto Mineiro,Foz do Iguaçu,Brasil,restaurant,-25.5335292,-54.5753306,https://www.openstreetmap.org/node/5287806152
+Mecanica Diniz,Foz do Iguaçu,Brasil,car_repair,-25.5366967,-54.5309582,https://www.openstreetmap.org/node/5303217156
+Caixa Econômica Federal,Foz do Iguaçu,Brasil,bank,-25.5354409,-54.5540928,https://www.openstreetmap.org/node/5303217158
+Loterica Jd Sao Paulo,Foz do Iguaçu,Brasil,lottery,-25.5354156,-54.5542609,https://www.openstreetmap.org/node/5303217159
+Pastel Setti,Foz do Iguaçu,Brasil,fast_food,-25.5356221,-54.5520984,https://www.openstreetmap.org/node/5303217168
+Bin Laden,Foz do Iguaçu,Brasil,fast_food,-25.5358524,-54.5521042,https://www.openstreetmap.org/node/5303217169
+Encopel,Foz do Iguaçu,Brasil,stationery,-25.5358835,-54.5512938,https://www.openstreetmap.org/node/5303217170
+Itaú,Foz do Iguaçu,Brasil,bank,-25.5354536,-54.5594814,https://www.openstreetmap.org/node/5303217176
+Fono Foz,Foz do Iguaçu,Brasil,clinic,-25.542034,-54.5835611,https://www.openstreetmap.org/node/5309377521
+Rockfalls,Foz do Iguaçu,Brasil,bar,-25.5465827,-54.585276,https://www.openstreetmap.org/node/5512862821
+Luna II,Foz do Iguaçu,Brasil,supermarket,-25.5007821,-54.5567778,https://www.openstreetmap.org/node/5514586821
+Bradesco,Foz do Iguaçu,Brasil,bank,-25.5447849,-54.5867281,https://www.openstreetmap.org/node/5563314221
+Emporio com villa,Foz do Iguaçu,Brasil,restaurant,-25.5501737,-54.5741583,https://www.openstreetmap.org/node/5563314421
+Cabeza de Vaca,Foz do Iguaçu,Brasil,restaurant,-25.5901956,-54.5898749,https://www.openstreetmap.org/node/5591351122
+Bigodón Mexican Bar,Foz do Iguaçu,Brasil,restaurant,-25.5471121,-54.5814702,https://www.openstreetmap.org/node/5591351137
+Casagrande Magazine,Foz do Iguaçu,Brasil,clothes,-25.5449656,-54.5848779,https://www.openstreetmap.org/node/5591351144
+lots of cheap clothes,Foz do Iguaçu,Brasil,clothes,-25.5099648,-54.5927414,https://www.openstreetmap.org/node/5595575624
+Foz Food Comércio de Alimentos,Foz do Iguaçu,Brasil,supermarket,-25.5136875,-54.5864375,https://www.openstreetmap.org/node/5644651625
+Pomare Empório - Produtos Naturais em Foz do Iguaçu,Foz do Iguaçu,Brasil,supermarket,-25.5374375,-54.5815625,https://www.openstreetmap.org/node/5644694321
+Pronapi - Produtos Naturais,Foz do Iguaçu,Brasil,supermarket,-25.5421875,-54.5866875,https://www.openstreetmap.org/node/5644694322
+Supermercado Vip,Foz do Iguaçu,Brasil,supermarket,-25.4845617,-54.566292,https://www.openstreetmap.org/node/5818168947
+Foz Bike,Foz do Iguaçu,Brasil,bicycle,-25.5486103,-54.5578299,https://www.openstreetmap.org/node/5859299209
+Bike center Foz,Foz do Iguaçu,Brasil,bicycle,-25.5485967,-54.5786111,https://www.openstreetmap.org/node/5860978385
+JD Supermercado,Foz do Iguaçu,Brasil,supermarket,-25.5145442,-54.556842,https://www.openstreetmap.org/node/5860978386
+Coringão Supermercado,Foz do Iguaçu,Brasil,supermarket,-25.5246772,-54.5356604,https://www.openstreetmap.org/node/5862229285
+Super Oliveira,Foz do Iguaçu,Brasil,supermarket,-25.5213324,-54.534151,https://www.openstreetmap.org/node/5863892085
+Super Kf,Foz do Iguaçu,Brasil,supermarket,-25.5791314,-54.5821191,https://www.openstreetmap.org/node/6064927686
+Korean House,Foz do Iguaçu,Brasil,restaurant,-25.5418663,-54.5832203,https://www.openstreetmap.org/node/6188963585
+Super Muffato Vila A,Foz do Iguaçu,Brasil,supermarket,-25.4942423,-54.5537259,https://www.openstreetmap.org/node/6286673285
+Farmacity,Foz do Iguaçu,Brasil,pharmacy,-25.5358784,-54.5518075,https://www.openstreetmap.org/node/6388317652
+kuka,Foz do Iguaçu,Brasil,bakery,-25.5356106,-54.5567617,https://www.openstreetmap.org/node/6388326831
+Farmacity,Foz do Iguaçu,Brasil,pharmacy,-25.5355864,-54.5571023,https://www.openstreetmap.org/node/6388326832
+Clínica Reabilitar,Foz do Iguaçu,Brasil,clinic,-25.5508898,-54.5858569,https://www.openstreetmap.org/node/6421178164
+Pop Art+Black Cat Café,Foz do Iguaçu,Brasil,cafe,-25.5446941,-54.5838013,https://www.openstreetmap.org/node/6532719286
+MAX Supermercado,Foz do Iguaçu,Brasil,supermarket,-25.5119705,-54.5522627,https://www.openstreetmap.org/node/6545909990
+Terramar,Foz do Iguaçu,Brasil,restaurant,-25.5369507,-54.5818586,https://www.openstreetmap.org/node/6681282285
+Dra. Liana Genovez - Reumatologia & Clínica Médica,Foz do Iguaçu,Brasil,doctors,-25.5316825,-54.5898201,https://www.openstreetmap.org/node/6700911113
+Cantina da Bea,Foz do Iguaçu,Brasil,restaurant,-25.5499996,-54.5735624,https://www.openstreetmap.org/node/6710851885
+Suqtel Pastelaria,Foz do Iguaçu,Brasil,fast_food,-25.5368783,-54.5867122,https://www.openstreetmap.org/node/6746899612
+Cheirin Bão Foz,Foz do Iguaçu,Brasil,cafe,-25.5368702,-54.5866089,https://www.openstreetmap.org/node/6746899613
+Bendito Foz Bar & Restaurante,Foz do Iguaçu,Brasil,restaurant,-25.5441774,-54.5820579,https://www.openstreetmap.org/node/6781821985
+Restaurante Nuvens do Prisma,Foz do Iguaçu,Brasil,restaurant,-25.4226951,-54.5899369,https://www.openstreetmap.org/node/6861781669
+Restaurante,Foz do Iguaçu,Brasil,restaurant,-25.4303357,-54.5946643,https://www.openstreetmap.org/node/6861781670
+Restaurante Frantyesko,Foz do Iguaçu,Brasil,restaurant,-25.4363038,-54.596503,https://www.openstreetmap.org/node/6861781671
+Lanchonete Frantyesko,Foz do Iguaçu,Brasil,fast_food,-25.4365751,-54.5966371,https://www.openstreetmap.org/node/6861781672
+Unidade Básica d Saúde d Jardim América,Foz do Iguaçu,Brasil,doctors,-25.5227628,-54.5887001,https://www.openstreetmap.org/node/6935118485
+Unidade Básica d Saúde d Porto Belo,Foz do Iguaçu,Brasil,clinic,-25.4712538,-54.5892542,https://www.openstreetmap.org/node/6935118585
+Mercado São Marcos,Foz do Iguaçu,Brasil,supermarket,-25.4665901,-54.5959408,https://www.openstreetmap.org/node/6935118586
+Riachuelo,Foz do Iguaçu,Brasil,yes,-25.5433348,-54.5866495,https://www.openstreetmap.org/node/6974035888
+Pernambucanas,Foz do Iguaçu,Brasil,yes,-25.5431718,-54.5861038,https://www.openstreetmap.org/node/6974035889
+Caixa Econômica Federal,Foz do Iguaçu,Brasil,bank,-25.5439318,-54.5873743,https://www.openstreetmap.org/node/6974035890
+TAM Viagens,Foz do Iguaçu,Brasil,travel_agency,-25.5454423,-54.5863032,https://www.openstreetmap.org/node/6974071992
+Paraná Banco,Foz do Iguaçu,Brasil,bank,-25.5456758,-54.5866452,https://www.openstreetmap.org/node/6974071993
+Caixa Econômica Federal,Foz do Iguaçu,Brasil,bank,-25.5439411,-54.5833128,https://www.openstreetmap.org/node/6974295062
+Beduíno's Comida Árabe,Foz do Iguaçu,Brasil,restaurant,-25.494185,-54.5627252,https://www.openstreetmap.org/node/6992212092
+Carlao Auto Pecas,Foz do Iguaçu,Brasil,car_parts,-25.5058248,-54.5426147,https://www.openstreetmap.org/node/7011554685
+Clínica Iguaçú,Foz do Iguaçu,Brasil,clinic,-25.5420899,-54.5835115,https://www.openstreetmap.org/node/7017099089
+Famiglia Maran Restaurante e Confeitaria,Foz do Iguaçu,Brasil,bakery,-25.537612,-54.5842959,https://www.openstreetmap.org/node/7017099287
+Droga Raia,Foz do Iguaçu,Brasil,pharmacy,-25.5376941,-54.5764291,https://www.openstreetmap.org/node/7039237003
+Master Beef,Foz do Iguaçu,Brasil,butcher,-25.4919363,-54.5598499,https://www.openstreetmap.org/node/7040409885
+Farmácia Preço Justo,Foz do Iguaçu,Brasil,pharmacy,-25.5378356,-54.57591,https://www.openstreetmap.org/node/7040728268
+Engenho Doce Panificadora e Confeitaria,Foz do Iguaçu,Brasil,bakery,-25.5404544,-54.5762959,https://www.openstreetmap.org/node/7040728269
+La Mafia Trattoria,Foz do Iguaçu,Brasil,restaurant,-25.5404036,-54.5769289,https://www.openstreetmap.org/node/7040728270
+Chicken Pizza,Foz do Iguaçu,Brasil,restaurant,-25.5375028,-54.5750592,https://www.openstreetmap.org/node/7040728272
+Frigideira Restaurante,Foz do Iguaçu,Brasil,restaurant,-25.5375611,-54.5739038,https://www.openstreetmap.org/node/7040728273
+Restaurante Dourado,Foz do Iguaçu,Brasil,restaurant,-25.5421633,-54.5763283,https://www.openstreetmap.org/node/7040728275
+Cantina Berlim di Napoli,Foz do Iguaçu,Brasil,restaurant,-25.5372411,-54.5755698,https://www.openstreetmap.org/node/7040728276
+Farmácia Via Rápida,Foz do Iguaçu,Brasil,pharmacy,-25.5332211,-54.5741925,https://www.openstreetmap.org/node/7040728277
+Bel Viale Restaurante e Pizzaria,Foz do Iguaçu,Brasil,restaurant,-25.5425026,-54.5821683,https://www.openstreetmap.org/node/7040855933
+Chicken Pizza,Foz do Iguaçu,Brasil,restaurant,-25.4953871,-54.5771884,https://www.openstreetmap.org/node/7040920989
+C7 sushi,Foz do Iguaçu,Brasil,restaurant,-25.4953152,-54.577446,https://www.openstreetmap.org/node/7040920990
+Líder Supermercado,Foz do Iguaçu,Brasil,supermarket,-25.4942724,-54.5644498,https://www.openstreetmap.org/node/7040920991
+Farmácias Mini Preço,Foz do Iguaçu,Brasil,pharmacy,-25.4946558,-54.5645481,https://www.openstreetmap.org/node/7040920992
+Ponto Certo Restaurante e Pizzaria,Foz do Iguaçu,Brasil,restaurant,-25.4937307,-54.5643077,https://www.openstreetmap.org/node/7040920993
+Farmácia Farmautil,Foz do Iguaçu,Brasil,pharmacy,-25.4942571,-54.5637405,https://www.openstreetmap.org/node/7040920994
+Farma A,Foz do Iguaçu,Brasil,pharmacy,-25.4940901,-54.5606092,https://www.openstreetmap.org/node/7040920997
+Moka Temakeria & Sushi,Foz do Iguaçu,Brasil,restaurant,-25.4940385,-54.5592026,https://www.openstreetmap.org/node/7040920999
+Pronatu's Saúde,Foz do Iguaçu,Brasil,restaurant,-25.4943995,-54.5596644,https://www.openstreetmap.org/node/7040921000
+Farmacias Nissei,Foz do Iguaçu,Brasil,pharmacy,-25.4943109,-54.5569799,https://www.openstreetmap.org/node/7040921001
+Farmácias Nissei,Foz do Iguaçu,Brasil,pharmacy,-25.5385994,-54.5861525,https://www.openstreetmap.org/node/7042442738
+Casa dos Chinelos,Foz do Iguaçu,Brasil,shoes,-25.5389479,-54.5858145,https://www.openstreetmap.org/node/7042442739
+Farmácia Cooperfarma,Foz do Iguaçu,Brasil,pharmacy,-25.5448335,-54.5863268,https://www.openstreetmap.org/node/7042442741
+R3 Express Food,Foz do Iguaçu,Brasil,restaurant,-25.5446617,-54.5854993,https://www.openstreetmap.org/node/7042442742
+Droga Raia,Foz do Iguaçu,Brasil,pharmacy,-25.5471021,-54.5868956,https://www.openstreetmap.org/node/7042442743
+Farmácia Preço Justo,Foz do Iguaçu,Brasil,pharmacy,-25.5480781,-54.5864973,https://www.openstreetmap.org/node/7042442744
+Dima's Farma,Foz do Iguaçu,Brasil,pharmacy,-25.548042,-54.587438,https://www.openstreetmap.org/node/7042442745
+Coralina Panificadora e Confeitaria,Foz do Iguaçu,Brasil,pastry,-25.5483059,-54.5863232,https://www.openstreetmap.org/node/7042442746
+Dog King,Foz do Iguaçu,Brasil,fast_food,-25.5481332,-54.585067,https://www.openstreetmap.org/node/7042442747
+Bona Trattoria,Foz do Iguaçu,Brasil,restaurant,-25.5476807,-54.5854165,https://www.openstreetmap.org/node/7042442748
+Yuu Asian Bar,Foz do Iguaçu,Brasil,restaurant,-25.5470588,-54.5861784,https://www.openstreetmap.org/node/7042442749
+Restaurante Zaragoza,Foz do Iguaçu,Brasil,restaurant,-25.5429571,-54.5839828,https://www.openstreetmap.org/node/7042442750
+Império Pizzaria,Foz do Iguaçu,Brasil,restaurant,-25.5450225,-54.5819079,https://www.openstreetmap.org/node/7043880549
+Mega Pizza,Foz do Iguaçu,Brasil,restaurant,-25.5451678,-54.5835135,https://www.openstreetmap.org/node/7043880550
+Over Dog,Foz do Iguaçu,Brasil,fast_food,-25.5467733,-54.5813959,https://www.openstreetmap.org/node/7043880551
+Botica Ouro Preto,Foz do Iguaçu,Brasil,pharmacy,-25.5481215,-54.5857279,https://www.openstreetmap.org/node/7043880552
+Artesani Manipulação de Fórmulas,Foz do Iguaçu,Brasil,pharmacy,-25.5473821,-54.5864396,https://www.openstreetmap.org/node/7043880553
+Domino's,Foz do Iguaçu,Brasil,fast_food,-25.5343883,-54.582012,https://www.openstreetmap.org/node/7043880554
+Coxinharia 1950,Foz do Iguaçu,Brasil,fast_food,-25.5372039,-54.5845452,https://www.openstreetmap.org/node/7043880555
+Burgerz,Foz do Iguaçu,Brasil,fast_food,-25.5400496,-54.5805667,https://www.openstreetmap.org/node/7043880556
+The Long Dog,Foz do Iguaçu,Brasil,fast_food,-25.5406759,-54.5803863,https://www.openstreetmap.org/node/7043880557
+Trigo & Cia,Foz do Iguaçu,Brasil,bakery,-25.5176316,-54.5742731,https://www.openstreetmap.org/node/7043880559
+Katamaki Sushi,Foz do Iguaçu,Brasil,restaurant,-25.5462164,-54.581095,https://www.openstreetmap.org/node/7043880561
+Trilha do Açaí,Foz do Iguaçu,Brasil,fast_food,-25.5427631,-54.5835584,https://www.openstreetmap.org/node/7043880563
+Clinica Immune,Foz do Iguaçu,Brasil,clinic,-25.5300793,-54.5720736,https://www.openstreetmap.org/node/7043880564
+UBS Maracanã,Foz do Iguaçu,Brasil,clinic,-25.5344545,-54.5677372,https://www.openstreetmap.org/node/7043880565
+Restaurante Caldeirão,Foz do Iguaçu,Brasil,restaurant,-25.5351253,-54.5638263,https://www.openstreetmap.org/node/7043880566
+Droga Raia,Foz do Iguaçu,Brasil,pharmacy,-25.5354107,-54.5609298,https://www.openstreetmap.org/node/7043880567
+UBS Vila Yolanda,Foz do Iguaçu,Brasil,clinic,-25.5499459,-54.5660351,https://www.openstreetmap.org/node/7050323759
+Chef Chan,Foz do Iguaçu,Brasil,restaurant,-25.5397809,-54.5825916,https://www.openstreetmap.org/node/7050323760
+Restaurante Iguaçu Buffet Livre,Foz do Iguaçu,Brasil,restaurant,-25.5553823,-54.5657253,https://www.openstreetmap.org/node/7056943485
+Trigo & Cia,Foz do Iguaçu,Brasil,restaurant,-25.5176516,-54.5742698,https://www.openstreetmap.org/node/7058716287
+Crescer Instituto de Pediatria Avançada,Foz do Iguaçu,Brasil,clinic,-25.5472537,-54.5779002,https://www.openstreetmap.org/node/7065091997
+Restaurante Grill Center Foz,Foz do Iguaçu,Brasil,restaurant,-25.5473057,-54.5814836,https://www.openstreetmap.org/node/7068167182
+Central Baterias,Foz do Iguaçu,Brasil,car_parts,-25.547129,-54.5805428,https://www.openstreetmap.org/node/7068222202
+Do Carmo,Foz do Iguaçu,Brasil,hairdresser,-25.5467944,-54.580683,https://www.openstreetmap.org/node/7068222215
+Central Bebidas,Foz do Iguaçu,Brasil,alcohol,-25.5467939,-54.5805824,https://www.openstreetmap.org/node/7068222217
+UBS Jd São Paulo,Foz do Iguaçu,Brasil,clinic,-25.5448646,-54.5523206,https://www.openstreetmap.org/node/7070678485
+KiPão,Foz do Iguaçu,Brasil,bakery,-25.5434971,-54.5518538,https://www.openstreetmap.org/node/7070682285
+Amsterdam,Foz do Iguaçu,Brasil,convenience,-25.541119,-54.576212,https://www.openstreetmap.org/node/7072424805
+SanduEats,Foz do Iguaçu,Brasil,fast_food,-25.5411213,-54.5764076,https://www.openstreetmap.org/node/7072424806
+Maravilha,Foz do Iguaçu,Brasil,supermarket,-25.4690112,-54.587071,https://www.openstreetmap.org/node/7084790186
+Rocha,Foz do Iguaçu,Brasil,supermarket,-25.471511,-54.5849895,https://www.openstreetmap.org/node/7084790285
+Coprtfarma,Foz do Iguaçu,Brasil,pharmacy,-25.4689481,-54.5873574,https://www.openstreetmap.org/node/7084790286
+Maran,Foz do Iguaçu,Brasil,restaurant,-25.5376833,-54.584333,https://www.openstreetmap.org/node/7095708886
+Boca Loka Express,Foz do Iguaçu,Brasil,restaurant,-25.5367598,-54.5884123,https://www.openstreetmap.org/node/7100218651
+Farmácia Preço Justo,Foz do Iguaçu,Brasil,pharmacy,-25.5342727,-54.5858215,https://www.openstreetmap.org/node/7100261923
+Farmarede,Foz do Iguaçu,Brasil,pharmacy,-25.5344875,-54.5858161,https://www.openstreetmap.org/node/7100261924
+Coperfarma,Foz do Iguaçu,Brasil,pharmacy,-25.5348304,-54.5858478,https://www.openstreetmap.org/node/7100261925
+Zanon Móveis,Foz do Iguaçu,Brasil,furniture,-25.539346,-54.5862212,https://www.openstreetmap.org/node/7100261927
+Quinta da Oliva,Foz do Iguaçu,Brasil,restaurant,-25.5495099,-54.5787419,https://www.openstreetmap.org/node/7100261932
+Restaurante Together,Foz do Iguaçu,Brasil,restaurant,-25.5409325,-54.5871579,https://www.openstreetmap.org/node/7100261934
+Martignoni Pizzaria,Foz do Iguaçu,Brasil,restaurant,-25.5162655,-54.5753531,https://www.openstreetmap.org/node/7101590769
+Restaurante Miyako,Foz do Iguaçu,Brasil,restaurant,-25.555099,-54.5678007,https://www.openstreetmap.org/node/7101590771
+Bolocos Açaí,Foz do Iguaçu,Brasil,restaurant,-25.5465225,-54.5835591,https://www.openstreetmap.org/node/7101590772
+R3 Express Food JK,Foz do Iguaçu,Brasil,restaurant,-25.5150852,-54.5855741,https://www.openstreetmap.org/node/7101590773
+Pastificio Pasta Mia,Foz do Iguaçu,Brasil,restaurant,-25.5359205,-54.573847,https://www.openstreetmap.org/node/7101590774
+TAJ Sushi & Grill,Foz do Iguaçu,Brasil,restaurant,-25.5473725,-54.5839936,https://www.openstreetmap.org/node/7101590775
+Le Mir Comida Arabe,Foz do Iguaçu,Brasil,restaurant,-25.5410929,-54.580614,https://www.openstreetmap.org/node/7101590778
+Restaurante Tempero da Bahia,Foz do Iguaçu,Brasil,restaurant,-25.5403678,-54.5817221,https://www.openstreetmap.org/node/7101590779
+Saty Culinária Japonesa,Foz do Iguaçu,Brasil,restaurant,-25.5544451,-54.5714681,https://www.openstreetmap.org/node/7101590780
+Casa Divina artigos religiosos,Foz do Iguaçu,Brasil,department_store,-25.539587,-54.5631493,https://www.openstreetmap.org/node/7115298387
+Sapataria Alvorada,Foz do Iguaçu,Brasil,convenience,-25.5426552,-54.5504304,https://www.openstreetmap.org/node/7128221989
+SuperDia,Foz do Iguaçu,Brasil,supermarket,-25.5788082,-54.5821474,https://www.openstreetmap.org/node/7128221990
+UBS Vila Yolanda,Foz do Iguaçu,Brasil,clinic,-25.5499482,-54.5660465,https://www.openstreetmap.org/node/7138923285
+Café com Passagem,Foz do Iguaçu,Brasil,coffee,-25.5401908,-54.5875645,https://www.openstreetmap.org/node/7148793833
+Sushi Gold,Foz do Iguaçu,Brasil,restaurant,-25.529482,-54.5699903,https://www.openstreetmap.org/node/7149914780
+Santander,Foz do Iguaçu,Brasil,bank,-25.5462235,-54.584912,https://www.openstreetmap.org/node/7174216485
+Honda Enjin,Foz do Iguaçu,Brasil,car,-25.5166901,-54.584323,https://www.openstreetmap.org/node/7177280734
+Aroma do Tempero,Foz do Iguaçu,Brasil,restaurant,-25.5341646,-54.5861533,https://www.openstreetmap.org/node/7196330936
+TEKM Lanches & Porções,Foz do Iguaçu,Brasil,bar,-25.5434619,-54.5525287,https://www.openstreetmap.org/node/7198783785
+Odara Artigos Religiosos,Foz do Iguaçu,Brasil,convenience,-25.532168,-54.5404626,https://www.openstreetmap.org/node/7205818786
+treviso,Foz do Iguaçu,Brasil,restaurant,-25.5356815,-54.5861702,https://www.openstreetmap.org/node/7220882985
+Mercado Estrela,Foz do Iguaçu,Brasil,supermarket,-25.5433701,-54.5546291,https://www.openstreetmap.org/node/7249410885
+brechó,Foz do Iguaçu,Brasil,convenience,-25.5391761,-54.5511857,https://www.openstreetmap.org/node/7249613386
+bazar,Foz do Iguaçu,Brasil,convenience,-25.5390598,-54.5518208,https://www.openstreetmap.org/node/7249939486
+bazar,Foz do Iguaçu,Brasil,convenience,-25.5383091,-54.5520584,https://www.openstreetmap.org/node/7249939586
+Preço justo,Foz do Iguaçu,Brasil,pharmacy,-25.5433785,-54.554941,https://www.openstreetmap.org/node/7249958385
+brechó,Foz do Iguaçu,Brasil,convenience,-25.5419808,-54.5502962,https://www.openstreetmap.org/node/7250139185
+Móveis Usados,Foz do Iguaçu,Brasil,gift,-25.5401968,-54.5518451,https://www.openstreetmap.org/node/7250139285
+San Martin Restaurant,Foz do Iguaçu,Brasil,restaurant,-25.6133777,-54.4853567,https://www.openstreetmap.org/node/7261616494
+Papelaria República,Foz do Iguaçu,Brasil,books,-25.5351903,-54.5575588,https://www.openstreetmap.org/node/7273684685
+bazar,Foz do Iguaçu,Brasil,convenience,-25.5356076,-54.5502924,https://www.openstreetmap.org/node/7276238886
+lanches,Foz do Iguaçu,Brasil,restaurant,-25.4979596,-54.5691706,https://www.openstreetmap.org/node/7282870085
+UBS MORUMBI 3,Foz do Iguaçu,Brasil,clinic,-25.518273,-54.5352512,https://www.openstreetmap.org/node/7430498885
+Caixa Lotérica,Foz do Iguaçu,Brasil,lottery,-25.52224,-54.5345181,https://www.openstreetmap.org/node/7467151485
+Bicicletaria GT,Foz do Iguaçu,Brasil,bicycle,-25.5326102,-54.5460642,https://www.openstreetmap.org/node/7524324885
+Mercado Luna,Foz do Iguaçu,Brasil,supermarket,-25.4905362,-54.5712049,https://www.openstreetmap.org/node/7569648585
+AKMOS,Foz do Iguaçu,Brasil,sports,-25.536804,-54.5347837,https://www.openstreetmap.org/node/7634986089
+casa 7 poderes,Foz do Iguaçu,Brasil,convenience,-25.5290234,-54.5370355,https://www.openstreetmap.org/node/7658566486
+Bazar Vila Portes,Foz do Iguaçu,Brasil,convenience,-25.5099055,-54.5926232,https://www.openstreetmap.org/node/7728872885
+Cad Farma,Foz do Iguaçu,Brasil,pharmacy,-25.5407722,-54.5518343,https://www.openstreetmap.org/node/7771236485
+Estévia,Foz do Iguaçu,Brasil,florist,-25.5360352,-54.5425927,https://www.openstreetmap.org/node/7785659085
+Da Horta,Foz do Iguaçu,Brasil,florist,-25.4903401,-54.5835475,https://www.openstreetmap.org/node/7825708685
+Banco Santander,Foz do Iguaçu,Brasil,bank,-25.4947979,-54.566415,https://www.openstreetmap.org/node/7825708686
+artigos religiosos,Foz do Iguaçu,Brasil,variety_store,-25.5346716,-54.5841457,https://www.openstreetmap.org/node/7830552885
+tend tudo,Foz do Iguaçu,Brasil,convenience,-25.5179792,-54.5373433,https://www.openstreetmap.org/node/7837157785
+encoprint,Foz do Iguaçu,Brasil,books,-25.540881,-54.5865273,https://www.openstreetmap.org/node/7861617985
+Estruturas Cataratas,Foz do Iguaçu,Brasil,car_repair,-25.4885035,-54.5823192,https://www.openstreetmap.org/node/7903397585
+Ítalo Jd. Petrópolis,Foz do Iguaçu,Brasil,supermarket,-25.4868191,-54.5814177,https://www.openstreetmap.org/node/7903397785
+econômico,Foz do Iguaçu,Brasil,supermarket,-25.5172103,-54.530758,https://www.openstreetmap.org/node/7907643886
+fábrica da pizza 10,Foz do Iguaçu,Brasil,restaurant,-25.5271944,-54.5374082,https://www.openstreetmap.org/node/7951288586
+9a Regional da Saúde,Foz do Iguaçu,Brasil,doctors,-25.5457814,-54.5807474,https://www.openstreetmap.org/node/7966730985
+company eletrônicos,Foz do Iguaçu,Brasil,mobile_phone,-25.5216707,-54.5347866,https://www.openstreetmap.org/node/7981788985
+Baratao,Foz do Iguaçu,Brasil,pet,-25.5362008,-54.5379213,https://www.openstreetmap.org/node/8016890989
+sos computadores,Foz do Iguaçu,Brasil,computer,-25.5338072,-54.5417026,https://www.openstreetmap.org/node/8021863385
+Smart tech,Foz do Iguaçu,Brasil,mobile_phone,-25.5350217,-54.5379022,https://www.openstreetmap.org/node/8059240385
+Mini Mercado Félix,Foz do Iguaçu,Brasil,supermarket,-25.5487596,-54.5806022,https://www.openstreetmap.org/node/8065483685
+pedras Brasil,Foz do Iguaçu,Brasil,jewelry,-25.5349228,-54.5857085,https://www.openstreetmap.org/node/8085674217
+arabian food,Foz do Iguaçu,Brasil,restaurant,-25.493856,-54.5739229,https://www.openstreetmap.org/node/8112944417
+Genusclin,Foz do Iguaçu,Brasil,clinic,-25.5457696,-54.5866517,https://www.openstreetmap.org/node/8611260217
+Itaú,Foz do Iguaçu,Brasil,bank,-25.5428325,-54.5841648,https://www.openstreetmap.org/node/8636219217
+Restaurante do Bolinha,Foz do Iguaçu,Brasil,restaurant,-25.5385873,-54.5757325,https://www.openstreetmap.org/node/9284249418
+Sonora Music Park,Foz do Iguaçu,Brasil,bar,-25.5414838,-54.4998634,https://www.openstreetmap.org/node/9510414653
+Jeca Espetinho,Foz do Iguaçu,Brasil,restaurant,-25.5357702,-54.5541587,https://www.openstreetmap.org/node/9548089522
+Pizzería,Foz do Iguaçu,Brasil,restaurant,-25.5370055,-54.5749827,https://www.openstreetmap.org/node/9695839621
+O Bistecão,Foz do Iguaçu,Brasil,restaurant,-25.5322838,-54.574142,https://www.openstreetmap.org/node/9695839719
+Restaurante do Bolinha,Foz do Iguaçu,Brasil,restaurant,-25.538538,-54.5757247,https://www.openstreetmap.org/node/9695840117
+Lanchonete Cozidos,Foz do Iguaçu,Brasil,fast_food,-25.5511553,-54.5725612,https://www.openstreetmap.org/node/10555466509
+Café Moinho Pães & Doces,Foz do Iguaçu,Brasil,supermarket,-25.5536755,-54.5717135,https://www.openstreetmap.org/node/10555466510
+Supermercado Santorini,Foz do Iguaçu,Brasil,supermarket,-25.5566698,-54.5736352,https://www.openstreetmap.org/node/10555471409
+Restaurante e Lanchonete do Amarildo,Foz do Iguaçu,Brasil,restaurant,-25.5197151,-54.5630474,https://www.openstreetmap.org/node/10555480009
+Lanches e Sorvetes Q'Delicia,Foz do Iguaçu,Brasil,fast_food,-25.5527198,-54.5725437,https://www.openstreetmap.org/node/10559922309
+Bar e sabor Biroska,Foz do Iguaçu,Brasil,fast_food,-25.5541583,-54.5708856,https://www.openstreetmap.org/node/10560852209
+Lava-car Boicy,Foz do Iguaçu,Brasil,car_wash,-25.5482564,-54.5771047,https://www.openstreetmap.org/node/10571019505
+Burger King,Foz do Iguaçu,Brasil,fast_food,-25.5471048,-54.5811701,https://www.openstreetmap.org/node/10572473250
+Panvel,Foz do Iguaçu,Brasil,pharmacy,-25.5470939,-54.5824273,https://www.openstreetmap.org/node/10572473251
+IguaFarma,Foz do Iguaçu,Brasil,pharmacy,-25.5488854,-54.5774444,https://www.openstreetmap.org/node/10574427862
+Lotérica Iguaçu,Foz do Iguaçu,Brasil,lottery,-25.5474352,-54.5785777,https://www.openstreetmap.org/node/10574427863
+Real Papelaria,Foz do Iguaçu,Brasil,stationery,-25.5473937,-54.5785713,https://www.openstreetmap.org/node/10574798833
+O Boticário,Foz do Iguaçu,Brasil,perfumery,-25.5465218,-54.5781696,https://www.openstreetmap.org/node/10574798834
+Amsterdam,Foz do Iguaçu,Brasil,tobacco,-25.54106,-54.5762332,https://www.openstreetmap.org/node/10574798835
+Closet,Foz do Iguaçu,Brasil,clothes,-25.5413361,-54.5759469,https://www.openstreetmap.org/node/10574798836
+Paraná Decor,Foz do Iguaçu,Brasil,interior_decoration,-25.5235235,-54.5860737,https://www.openstreetmap.org/node/10574798837
+Continental AG,Foz do Iguaçu,Brasil,tyres,-25.5574634,-54.5816111,https://www.openstreetmap.org/node/10580211132
+Luigia Pizzeria Napoletana,Foz do Iguaçu,Brasil,restaurant,-25.5406389,-54.5762176,https://www.openstreetmap.org/node/10580385678
+Monken' Donuts,Foz do Iguaçu,Brasil,fast_food,-25.540741,-54.57597,https://www.openstreetmap.org/node/10580385679
+Go Coffee,Foz do Iguaçu,Brasil,cafe,-25.5406861,-54.5759625,https://www.openstreetmap.org/node/10580385680
+Farmácia São João,Foz do Iguaçu,Brasil,pharmacy,-25.545123,-54.576454,https://www.openstreetmap.org/node/10581258263
+Sicoob,Foz do Iguaçu,Brasil,bank,-25.5684852,-54.5580124,https://www.openstreetmap.org/node/10581258264
+Renner,Foz do Iguaçu,Brasil,clothes,-25.5685009,-54.5584096,https://www.openstreetmap.org/node/10581258265
+C&A,Foz do Iguaçu,Brasil,clothes,-25.5685677,-54.5588605,https://www.openstreetmap.org/node/10581258266
+Cellshop,Foz do Iguaçu,Brasil,mobile_phone,-25.5687524,-54.5591632,https://www.openstreetmap.org/node/10581258267
+Smell Massas,Foz do Iguaçu,Brasil,restaurant,-25.5972429,-54.4891658,https://www.openstreetmap.org/node/10581441148
+Rei do Mate,Foz do Iguaçu,Brasil,cafe,-25.5974223,-54.4888998,https://www.openstreetmap.org/node/10581509387
+Brasileiríssima,Foz do Iguaçu,Brasil,gift,-25.5976271,-54.4886995,https://www.openstreetmap.org/node/10581509388
+Doog,Foz do Iguaçu,Brasil,fast_food,-25.59754,-54.4887764,https://www.openstreetmap.org/node/10581509389
+Mercado Falls Mix,Foz do Iguaçu,Brasil,supermarket,-25.5371136,-54.5863981,https://www.openstreetmap.org/node/10897841745
+Itaú,Foz do Iguaçu,Brasil,bank,-25.5426907,-54.5853272,https://www.openstreetmap.org/node/10897841746
+Tramontim Restaurante & Pizzeria,Foz do Iguaçu,Brasil,restaurant,-25.5427028,-54.5845239,https://www.openstreetmap.org/node/10897841747
+Deux Coffee Roasters,Foz do Iguaçu,Brasil,cafe,-25.5429957,-54.5833598,https://www.openstreetmap.org/node/10897841748
+Distrito Outlet,Foz do Iguaçu,Brasil,clothes,-25.5437832,-54.582034,https://www.openstreetmap.org/node/10897841749
+mestrecervegeiro.com,Foz do Iguaçu,Brasil,bar,-25.5383781,-54.5889227,https://www.openstreetmap.org/node/11266525575
+Rafain Chopp by Jeca Espetinho,Foz do Iguaçu,Brasil,restaurant,-25.5020744,-54.5572294,https://www.openstreetmap.org/node/11294603452
+Chefs Burgers imperial,Foz do Iguaçu,Brasil,fast_food,-25.4984669,-54.5575897,https://www.openstreetmap.org/node/11294604645
+Dragon Burguer Hamburgueria e Food Truck,Foz do Iguaçu,Brasil,fast_food,-25.4935257,-54.5495776,https://www.openstreetmap.org/node/11294607214
+Titão Burger Cozinha Nordestina,Foz do Iguaçu,Brasil,fast_food,-25.5397325,-54.5516102,https://www.openstreetmap.org/node/11294607221
+Hamburgueria Siri Burguer,Foz do Iguaçu,Brasil,fast_food,-25.5795152,-54.5754859,https://www.openstreetmap.org/node/11294618717
+Caixa Econômica Federal,Foz do Iguaçu,Brasil,bank,-25.4945329,-54.5602063,https://www.openstreetmap.org/node/11296421077
+Diego Prensadão Lanches,Foz do Iguaçu,Brasil,fast_food,-25.4944963,-54.5588752,https://www.openstreetmap.org/node/11299781770
+Ney Supermercado,Foz do Iguaçu,Brasil,supermarket,-25.4840906,-54.5615791,https://www.openstreetmap.org/node/11301160638
+Cataratas Loterias,Foz do Iguaçu,Brasil,lottery,-25.4942274,-54.5540248,https://www.openstreetmap.org/node/11301189283
+Itaipu Loteria,Foz do Iguaçu,Brasil,lottery,-25.4942916,-54.5655113,https://www.openstreetmap.org/node/11301198607
+Made in Roça - Lanches,Foz do Iguaçu,Brasil,fast_food,-25.5162915,-54.5864795,https://www.openstreetmap.org/node/11310244213
+Max Atacadista - Debret,Foz do Iguaçu,Brasil,wholesale,-25.5086072,-54.5883671,https://www.openstreetmap.org/node/11367079581
+Sara lanches e hamburgueria,Foz do Iguaçu,Brasil,fast_food,-25.575506,-54.5682793,https://www.openstreetmap.org/node/11382327866
+G + Brindes,Foz do Iguaçu,Brasil,brindes_e_gráfica.,-25.4789019,-54.5794613,https://www.openstreetmap.org/node/11988841605
+Grein Comércio | Biju e acessórios,Foz do Iguaçu,Brasil,"biju,_acessórios",-25.5104629,-54.5920946,https://www.openstreetmap.org/node/12015209417
+Padaria Doce arte e cia,Foz do Iguaçu,Brasil,bakery,-25.4767622,-54.5799013,https://www.openstreetmap.org/node/12044590615
+Mercearia Zero Grau,Foz do Iguaçu,Brasil,convenience,-25.4766988,-54.5796764,https://www.openstreetmap.org/node/12044590616
+Mercado Marin,Foz do Iguaçu,Brasil,convenience,-25.4765062,-54.5781385,https://www.openstreetmap.org/node/12044590617
+Borracharia Vini,Foz do Iguaçu,Brasil,tyres,-25.4767553,-54.5778054,https://www.openstreetmap.org/node/12044590618
+Farmácia Coperfarma,Foz do Iguaçu,Brasil,pharmacy,-25.4771502,-54.5801631,https://www.openstreetmap.org/node/12044590619
+Milk Mix,Foz do Iguaçu,Brasil,fast_food,-25.5323807,-54.5870295,https://www.openstreetmap.org/node/12272108901
+Frango no Pote,Foz do Iguaçu,Brasil,fast_food,-25.5342434,-54.586651,https://www.openstreetmap.org/node/12272108902
+Mercedes-Benz,Foz do Iguaçu,Brasil,car,-25.4882455,-54.5069049,https://www.openstreetmap.org/node/12333392535
+Quiosque Hidrancao,Foz do Iguaçu,Brasil,kiosk,-25.6847638,-54.439774,https://www.openstreetmap.org/node/12348305363
+Floricultura Imperial,Foz do Iguaçu,Brasil,florist,-25.5484603,-54.5554057,https://www.openstreetmap.org/node/12378623223
+Barbearia Abraão,Foz do Iguaçu,Brasil,hairdresser,-25.4933556,-54.560616,https://www.openstreetmap.org/node/12394324605
+Café da Praca,Foz do Iguaçu,Brasil,cafe,-25.6143299,-54.4832996,https://www.openstreetmap.org/node/12471859101
+Tarobá,Foz do Iguaçu,Brasil,bar,-25.684048,-54.4387709,https://www.openstreetmap.org/node/12472702601
+Itaipu,Foz do Iguaçu,Brasil,restaurant,-25.684512,-54.4388294,https://www.openstreetmap.org/node/12472702701
+Sauer,Foz do Iguaçu,Brasil,jewelry,-25.6841564,-54.4386056,https://www.openstreetmap.org/node/12472702702
+Ipê,Foz do Iguaçu,Brasil,restaurant,-25.6841835,-54.4379751,https://www.openstreetmap.org/node/12473529502
+Signature,Foz do Iguaçu,Brasil,boutique,-25.6835812,-54.4383795,https://www.openstreetmap.org/node/12474239001
+Ytá Brazil,Foz do Iguaçu,Brasil,gift,-25.6837165,-54.4383918,https://www.openstreetmap.org/node/12474239101
+Nutty Bavarian,Foz do Iguaçu,Brasil,confectionery,-25.5979832,-54.4881907,https://www.openstreetmap.org/node/12475915902
+Asmar's,Foz do Iguaçu,Brasil,pastry,-25.5979388,-54.4882958,https://www.openstreetmap.org/node/12475916002
+Casa do Pão de Queijo,Foz do Iguaçu,Brasil,pastry,-25.5980834,-54.4880759,https://www.openstreetmap.org/node/12475924402
+Pecorino,Foz do Iguaçu,Brasil,restaurant,-25.5977651,-54.4886918,https://www.openstreetmap.org/node/12475954401
+Subway,Foz do Iguaçu,Brasil,fast_food,-25.5974306,-54.4887724,https://www.openstreetmap.org/node/12475984601
+Itamax - Instituto de Ressonância Magnética,Foz do Iguaçu,Brasil,clinic,-25.5268157,-54.5750807,https://www.openstreetmap.org/node/12887814239
+TFL Pneus,Foz do Iguaçu,Brasil,tyres,-25.4957926,-54.5216754,https://www.openstreetmap.org/node/13171897534
+MAX Atacadista Foz do Iguaçu Porto Meira,Foz do Iguaçu,Brasil,wholesale,-25.569644,-54.5713911,https://www.openstreetmap.org/node/13175207109
+Aqua Magic,Foz do Iguaçu,Brasil,laundry,-25.5346639,-54.58676,https://www.openstreetmap.org/node/13184359601
+Cafe com arte,Foz do Iguaçu,Brasil,cafe,-25.5414483,-54.5617152,https://www.openstreetmap.org/node/13189095707
+Farmácia São João,Foz do Iguaçu,Brasil,pharmacy,-25.5354778,-54.56165,https://www.openstreetmap.org/node/13189097804
+Consalter,Foz do Iguaçu,Brasil,supermarket,-25.5493774,-54.54058,https://www.openstreetmap.org/node/13189097904
+Farmácia São João,Foz do Iguaçu,Brasil,pharmacy,-25.5471671,-54.5830975,https://www.openstreetmap.org/node/13191378103
+Farmácia São João,Foz do Iguaçu,Brasil,pharmacy,-25.5120698,-54.5932901,https://www.openstreetmap.org/node/13191378105
+Mercado elite,Foz do Iguaçu,Brasil,convenience,-25.5413737,-54.5872407,https://www.openstreetmap.org/node/13191383302
+Asmar's shawarmaria,Foz do Iguaçu,Brasil,restaurant,-25.5354245,-54.5883346,https://www.openstreetmap.org/node/13191525101
+zero 45 bebidas & conveniência,Foz do Iguaçu,Brasil,bar,-25.5408404,-54.5890384,https://www.openstreetmap.org/node/13191752901
+Panvel,Foz do Iguaçu,Brasil,pharmacy,-25.5409292,-54.5872218,https://www.openstreetmap.org/node/13233106603
+Encopel,Foz do Iguaçu,Brasil,books,-25.540976,-54.5848578,https://www.openstreetmap.org/node/13233106606
+Menu poke,Foz do Iguaçu,Brasil,restaurant,-25.5408478,-54.5801213,https://www.openstreetmap.org/node/13233107905
+Cafeteria,Foz do Iguaçu,Brasil,cafe,-25.540857,-54.5800751,https://www.openstreetmap.org/node/13233107906
+Madero jeronimo burger,Foz do Iguaçu,Brasil,fast_food,-25.5396551,-54.5764804,https://www.openstreetmap.org/node/13233107907
+Nissei,Foz do Iguaçu,Brasil,pharmacy,-25.5372595,-54.5756963,https://www.openstreetmap.org/node/13233107908
+Vegas,Foz do Iguaçu,Brasil,bar,-25.5411337,-54.5815921,https://www.openstreetmap.org/node/13233109001
+Panvel,Foz do Iguaçu,Brasil,pharmacy,-25.5388204,-54.5758204,https://www.openstreetmap.org/node/13233109002
+Droga Raia,Foz do Iguaçu,Brasil,pharmacy,-25.5323062,-54.5731369,https://www.openstreetmap.org/node/13233697002
+Jeep (fipal),Foz do Iguaçu,Brasil,car,-25.5234254,-54.5640167,https://www.openstreetmap.org/node/13233697303
+Burgers,Foz do Iguaçu,Brasil,fast_food,-25.521508,-54.5626297,https://www.openstreetmap.org/node/13233697305
+BrasilSul,Foz do Iguaçu,Brasil,ticket,-25.5203764,-54.5633848,https://www.openstreetmap.org/node/13233697502
+Wash foam (self-service),Foz do Iguaçu,Brasil,laundry,-25.5209546,-54.5636324,https://www.openstreetmap.org/node/13233697901
+UBS AKLP,Foz do Iguaçu,Brasil,clinic,-25.4898806,-54.5779423,https://www.openstreetmap.org/node/13236827779
+Sabonet,Foz do Iguaçu,Brasil,laundry,-25.5356051,-54.5874457,https://www.openstreetmap.org/node/13327021801
+MC Lanches,Foz do Iguaçu,Brasil,fast_food,-25.5356524,-54.58563,https://www.openstreetmap.org/node/13332602101
+Casa TropCalia Parrilla,Foz do Iguaçu,Brasil,restaurant,-25.5470829,-54.5821193,https://www.openstreetmap.org/node/13568162301
+Meurer Materiais de Construção,Foz do Iguaçu,Brasil,hardware,-25.5488295,-54.548651,https://www.openstreetmap.org/node/13712879387
+Central do Açaí,Foz do Iguaçu,Brasil,fast_food,-25.5767944,-54.564287,https://www.openstreetmap.org/node/13712879960
+MECÂNICA TATU DIESEL,Foz do Iguaçu,Brasil,car_repair,-25.4932247,-54.518504,https://www.openstreetmap.org/node/13727761901
+Pesque e Pague,Foz do Iguaçu,Brasil,fishing,-25.4725347,-54.5119536,https://www.openstreetmap.org/node/13767464734
+Floricultura Mundo das Plantas,Foz do Iguaçu,Brasil,garden_centre,-25.5127908,-54.5846518,https://www.openstreetmap.org/node/13767479341
+Móveis Camargo,Foz do Iguaçu,Brasil,furniture,-25.4778552,-54.5097513,https://www.openstreetmap.org/node/13767516455
+Cataratas Decoração e Construção,Foz do Iguaçu,Brasil,interior_decoration,-25.5239856,-54.5855497,https://www.openstreetmap.org/node/13771403007
+Joaozinho Espetinhos,Foz do Iguaçu,Brasil,restaurant,-25.5560817,-54.574283,https://www.openstreetmap.org/node/13897619602
+Michelon,Foz do Iguaçu,Brasil,supermarket,-25.5644861,-54.5688224,https://www.openstreetmap.org/node/13897622001
+Parthenon Barbearia,Foz do Iguaçu,Brasil,hairdresser,-25.5682178,-54.5711959,https://www.openstreetmap.org/node/13897662304
+Bar Do Mano,Foz do Iguaçu,Brasil,bar,-25.5693455,-54.5755682,https://www.openstreetmap.org/node/13897662305
+Sabor do peixe,Foz do Iguaçu,Brasil,restaurant,-25.5693165,-54.5815051,https://www.openstreetmap.org/node/13897662306
+Stop Pizza,Foz do Iguaçu,Brasil,restaurant,-25.5657166,-54.5710119,https://www.openstreetmap.org/node/13897672101
+Delícias do rio,Foz do Iguaçu,Brasil,restaurant,-25.5690168,-54.5791431,https://www.openstreetmap.org/node/13897672201
+Acqua Lavanderia Express,Foz do Iguaçu,Brasil,laundry,-25.57456,-54.5824576,https://www.openstreetmap.org/node/13897681801
+Acqua Lavanderia Express,Foz do Iguaçu,Brasil,laundry,-25.57456,-54.5824576,https://www.openstreetmap.org/node/13897788501
+Farmácia São João,Foz do Iguaçu,Brasil,pharmacy,-25.5765533,-54.5824358,https://www.openstreetmap.org/node/13897788901
+Mercado M.M.,Foz do Iguaçu,Brasil,convenience,-25.5766712,-54.5625602,https://www.openstreetmap.org/node/13905245601
+Mercado San Cayetano,Foz do Iguaçu,Brasil,convenience,-25.5767789,-54.5650554,https://www.openstreetmap.org/node/13905245602
+Bicicletaria O Campos,Foz do Iguaçu,Brasil,bicycle,-25.5768654,-54.5671965,https://www.openstreetmap.org/node/13905245603
+Beto's Farma,Foz do Iguaçu,Brasil,pharmacy,-25.5767892,-54.5648149,https://www.openstreetmap.org/node/13905245702
+Panificadora Bom Bocado,Foz do Iguaçu,Brasil,bakery,-25.565014,-54.5688286,https://www.openstreetmap.org/node/13905246201
+Panificadora Mallorquin,Foz do Iguaçu,Brasil,bakery,-25.5568612,-54.5699013,https://www.openstreetmap.org/node/13905943602
+Central da Pizza,Foz do Iguaçu,Brasil,restaurant,-25.5642685,-54.5684929,https://www.openstreetmap.org/node/13905943603
+Mecanica de motos,Foz do Iguaçu,Brasil,motorcycle_repair,-25.5553695,-54.5696877,https://www.openstreetmap.org/node/13905946201
+Forja,Foz do Iguaçu,Brasil,tattoo,-25.5505169,-54.572782,https://www.openstreetmap.org/node/13905946401
+Pão na Chapa,Foz do Iguaçu,Brasil,cafe,-25.512587,-54.5922745,https://www.openstreetmap.org/node/14067140240
+Los Chamos,Foz do Iguaçu,Brasil,fast_food,-25.5362982,-54.5859923,https://www.openstreetmap.org/node/14067240172
+Supermercado Polaco,Foz do Iguaçu,Brasil,supermarket,-25.4973372,-54.5366708,https://www.openstreetmap.org/node/14090983328
+Farmácia São João,Foz do Iguaçu,Brasil,pharmacy,-25.5487285,-54.550542,https://www.openstreetmap.org/node/14115269762
+Farmácia São João,Foz do Iguaçu,Brasil,pharmacy,-25.5196887,-54.5372939,https://www.openstreetmap.org/node/14115334378
+Farmácia São João,Foz do Iguaçu,Brasil,pharmacy,-25.5394936,-54.5807649,https://www.openstreetmap.org/node/14115355840
+Farmácia São João,Foz do Iguaçu,Brasil,pharmacy,-25.4864665,-54.5053488,https://www.openstreetmap.org/node/14115395672
+Havan,Foz do Iguaçu,Brasil,department_store,-25.5691997,-54.5588294,https://www.openstreetmap.org/node/14130005739
+Havan,Foz do Iguaçu,Brasil,department_store,-25.5330802,-54.5747217,https://www.openstreetmap.org/node/14130032659
+Restaurante Bandelotto's,Foz do Iguaçu,Brasil,restaurant,-25.5167488,-54.583577,https://www.openstreetmap.org/node/14131355438
+Droga Raia,Foz do Iguaçu,Brasil,pharmacy,-25.4946304,-54.5612168,https://www.openstreetmap.org/node/14134154363
+Droga Raia,Foz do Iguaçu,Brasil,pharmacy,-25.5452056,-54.5760545,https://www.openstreetmap.org/node/14134868875
+Droga Raia,Foz do Iguaçu,Brasil,pharmacy,-25.5174206,-54.5754214,https://www.openstreetmap.org/node/14134903526
+Droga Raia,Foz do Iguaçu,Brasil,pharmacy,-25.4986157,-54.5567266,https://www.openstreetmap.org/node/14135516998
+Bazar Setti,Foz do Iguaçu,Brasil,fabric,-25.5411617,-54.5860331,https://www.openstreetmap.org/node/14159964181
+Sicilia em Foz,Foz do Iguaçu,Brasil,restaurant,-25.5375022,-54.5778381,https://www.openstreetmap.org/node/14210233401
+Las Carolinas Bistro Cafe,Foz do Iguaçu,Brasil,cafe,-25.5375441,-54.5778286,https://www.openstreetmap.org/node/14210253101
+Seubar Restaurante e Petiscaria,Foz do Iguaçu,Brasil,restaurant,-25.5350667,-54.5858149,https://www.openstreetmap.org/node/14296429602
+Perfeito Lanches & Café,Foz do Iguaçu,Brasil,restaurant,-25.534167,-54.5857943,https://www.openstreetmap.org/node/14303924509
+BR Telecartofilia,Foz do Iguaçu,Brasil,general,-25.5341847,-54.5857957,https://www.openstreetmap.org/node/14303924510
+Fenix Artesanato,Foz do Iguaçu,Brasil,general,-25.5342676,-54.5857952,https://www.openstreetmap.org/node/14303924511
+Lanchonete Alves,Foz do Iguaçu,Brasil,fast_food,-25.5343349,-54.5858083,https://www.openstreetmap.org/node/14303924512
+UTI Assistência Técnica Informática & Celulares,Foz do Iguaçu,Brasil,electronics_repair,-25.5344326,-54.5858138,https://www.openstreetmap.org/node/14303924514
+Farmácias MiniPreço,Foz do Iguaçu,Brasil,pharmacy,-25.5346895,-54.5858517,https://www.openstreetmap.org/node/14303924516
+Ailabiu Iguassu,Foz do Iguaçu,Brasil,general,-25.5347205,-54.585852,https://www.openstreetmap.org/node/14303924517
+Costa do Cacau,Foz do Iguaçu,Brasil,chocolate,-25.5559122,-54.5646316,https://www.openstreetmap.org/node/14353139701
+Supermercado Muffato,Foz do Iguaçu,Brasil,supermarket,-25.5309349,-54.5876896,https://www.openstreetmap.org/way/32276478
+Maxxi Atacado,Foz do Iguaçu,Brasil,wholesale,-25.5219242,-54.5838779,https://www.openstreetmap.org/way/32276762
+Super Muffato Boicy,Foz do Iguaçu,Brasil,supermarket,-25.5466308,-54.5778447,https://www.openstreetmap.org/way/85578468
+Itaú,Foz do Iguaçu,Brasil,bank,-25.4360073,-54.5964024,https://www.openstreetmap.org/way/186805984
+Caixa Econômica Federal,Foz do Iguaçu,Brasil,bank,-25.5344044,-54.5853726,https://www.openstreetmap.org/way/240441508
+Churrascaria do Gaúcho,Foz do Iguaçu,Brasil,restaurant,-25.5341501,-54.5881625,https://www.openstreetmap.org/way/241147836
+AutoFoz Fiat,Foz do Iguaçu,Brasil,car,-25.5102219,-54.578536,https://www.openstreetmap.org/way/241299542
+Paladar,Foz do Iguaçu,Brasil,restaurant,-25.5371652,-54.586783,https://www.openstreetmap.org/way/242825043
+Ítalo Supermercados,Foz do Iguaçu,Brasil,supermarket,-25.5444279,-54.5831362,https://www.openstreetmap.org/way/297664767
+Restaurante Grigio,Foz do Iguaçu,Brasil,restaurant,-25.5389347,-54.5843473,https://www.openstreetmap.org/way/297820347
+Churrascaria e Pizzaria Tropicana,Foz do Iguaçu,Brasil,restaurant,-25.542252,-54.58726,https://www.openstreetmap.org/way/297829663
+Snooker Bar,Foz do Iguaçu,Brasil,bar,-25.5513769,-54.572364,https://www.openstreetmap.org/way/298026995
+Lanchonete Pé do Galo,Foz do Iguaçu,Brasil,bar,-25.5202919,-54.5880093,https://www.openstreetmap.org/way/306044830
+Itaú,Foz do Iguaçu,Brasil,bank,-25.5153663,-54.5855571,https://www.openstreetmap.org/way/306045356
+Bouro branco,Foz do Iguaçu,Brasil,convenience,-25.5277756,-54.5856425,https://www.openstreetmap.org/way/306210583
+Cantina Quatro Sorelle,Foz do Iguaçu,Brasil,restaurant,-25.5438686,-54.5846436,https://www.openstreetmap.org/way/306948462
+McDonald's,Foz do Iguaçu,Brasil,fast_food,-25.5466411,-54.5826119,https://www.openstreetmap.org/way/306950220
+Confins Steakhouse,Foz do Iguaçu,Brasil,restaurant,-25.5464811,-54.5812071,https://www.openstreetmap.org/way/306950222
+Doce Pão,Foz do Iguaçu,Brasil,bakery,-25.5350065,-54.5882348,https://www.openstreetmap.org/way/307093154
+Capitão Bar,Foz do Iguaçu,Brasil,bar,-25.5471452,-54.5854154,https://www.openstreetmap.org/way/307812090
+Maki Sushi,Foz do Iguaçu,Brasil,restaurant,-25.5474038,-54.5854543,https://www.openstreetmap.org/way/307812091
+ParkFoz Steakhouse,Foz do Iguaçu,Brasil,restaurant,-25.5467022,-54.5853398,https://www.openstreetmap.org/way/307812092
+Subway,Foz do Iguaçu,Brasil,fast_food,-25.5471993,-54.5857994,https://www.openstreetmap.org/way/307812093
+Rafain Chopp,Foz do Iguaçu,Brasil,restaurant,-25.5471991,-54.5840206,https://www.openstreetmap.org/way/308741058
+Banco do Brasil,Foz do Iguaçu,Brasil,bank,-25.5463094,-54.5860328,https://www.openstreetmap.org/way/308745628
+Itaú,Foz do Iguaçu,Brasil,bank,-25.5430793,-54.5871765,https://www.openstreetmap.org/way/308745630
+Taroba Spot,Foz do Iguaçu,Brasil,kiosk,-25.6870335,-54.4394456,https://www.openstreetmap.org/way/313122095
+Cataratas JL Shopping,Foz do Iguaçu,Brasil,mall,-25.5331313,-54.5750737,https://www.openstreetmap.org/way/362429835
+Jet Pizza e Lanche,Foz do Iguaçu,Brasil,restaurant,-25.5346944,-54.5739413,https://www.openstreetmap.org/way/439957860
+Posto Damo,Foz do Iguaçu,Brasil,convenience,-25.5326857,-54.5743402,https://www.openstreetmap.org/way/439957865
+Ferro Velho do Marcao,Foz do Iguaçu,Brasil,car_repair,-25.536585,-54.529301,https://www.openstreetmap.org/way/473347477
+UPA do Morumbi,Foz do Iguaçu,Brasil,clinic,-25.5326857,-54.5343806,https://www.openstreetmap.org/way/473353897
+Internacional,Foz do Iguaçu,Brasil,no,-25.5590505,-54.5762091,https://www.openstreetmap.org/way/503501326
+Três fronteiras,Foz do Iguaçu,Brasil,electronics_repair,-25.5342549,-54.5863576,https://www.openstreetmap.org/way/503638877
+BR Mania,Foz do Iguaçu,Brasil,convenience,-25.5473726,-54.5834095,https://www.openstreetmap.org/way/503887829
+Posto Uruçuí,Foz do Iguaçu,Brasil,convenience,-25.5472424,-54.5834928,https://www.openstreetmap.org/way/503887830
+Seo Carlos,Foz do Iguaçu,Brasil,restaurant,-25.5361233,-54.586027,https://www.openstreetmap.org/way/544669126
+Panorama Home Center,Foz do Iguaçu,Brasil,hardware,-25.5139212,-54.5843938,https://www.openstreetmap.org/way/546953127
+Barbeiro Cabelereiro Diaa,Foz do Iguaçu,Brasil,hairdresser,-25.5167029,-54.5849561,https://www.openstreetmap.org/way/546953436
+Supermercado Santa Inês,Foz do Iguaçu,Brasil,supermarket,-25.4932338,-54.54499,https://www.openstreetmap.org/way/549173205
+Nissan Ninja,Foz do Iguaçu,Brasil,car,-25.5221649,-54.5629437,https://www.openstreetmap.org/way/554440216
+Amigão Supermercados,Foz do Iguaçu,Brasil,supermarket,-25.5714793,-54.5783631,https://www.openstreetmap.org/way/557809292
+Jardim da Cerveja,Foz do Iguaçu,Brasil,restaurant,-25.5472667,-54.580684,https://www.openstreetmap.org/way/585015080
+Shopping Mercosul,Foz do Iguaçu,Brasil,mall,-25.5386198,-54.5824346,https://www.openstreetmap.org/way/608658736
+Kasi Supermercado,Foz do Iguaçu,Brasil,supermarket,-25.4888971,-54.5784344,https://www.openstreetmap.org/way/613047478
+Farmácia Cooperfarma,Foz do Iguaçu,Brasil,pharmacy,-25.4771433,-54.5801569,https://www.openstreetmap.org/way/614630108
+Bradesco,Foz do Iguaçu,Brasil,bank,-25.5358939,-54.5538353,https://www.openstreetmap.org/way/614630567
+Baixada Bebidas,Foz do Iguaçu,Brasil,convenience,-25.4789305,-54.5097006,https://www.openstreetmap.org/way/614641658
+Dudu Car,Foz do Iguaçu,Brasil,car_parts,-25.4798186,-54.5089159,https://www.openstreetmap.org/way/614641714
+Supermercado Kasi,Foz do Iguaçu,Brasil,supermarket,-25.4766563,-54.5793656,https://www.openstreetmap.org/way/615012479
+Supermercado Nandi,Foz do Iguaçu,Brasil,supermarket,-25.481772,-54.5083602,https://www.openstreetmap.org/way/615649973
+UBS do Jardim São Paulo II,Foz do Iguaçu,Brasil,clinic,-25.5417632,-54.5497632,https://www.openstreetmap.org/way/616387566
+Pastel Dourado,Foz do Iguaçu,Brasil,fast_food,-25.4848786,-54.506838,https://www.openstreetmap.org/way/619171334
+Foz Grill,Foz do Iguaçu,Brasil,restaurant,-25.5353816,-54.5505894,https://www.openstreetmap.org/way/620752866
+Muffato Supermercado,Foz do Iguaçu,Brasil,supermarket,-25.4942752,-54.5536953,https://www.openstreetmap.org/way/680654838
+UBS Jardim Curitibano,Foz do Iguaçu,Brasil,clinic,-25.4935082,-54.5530047,https://www.openstreetmap.org/way/680749108
+Superercado Italo,Foz do Iguaçu,Brasil,supermarket,-25.5360541,-54.5582474,https://www.openstreetmap.org/way/682172247
+Preço Justo,Foz do Iguaçu,Brasil,pharmacy,-25.4835202,-54.5071147,https://www.openstreetmap.org/way/689399492
+Sabores da Floresta,Foz do Iguaçu,Brasil,restaurant,-25.6143599,-54.4829387,https://www.openstreetmap.org/way/779115882
+Martelli Atacado da Construção,Foz do Iguaçu,Brasil,hardware,-25.5109117,-54.5761329,https://www.openstreetmap.org/way/840236395
+Via Morello,Foz do Iguaçu,Brasil,restaurant,-25.5180819,-54.5742944,https://www.openstreetmap.org/way/1054581277
+Panificadora Cake,Foz do Iguaçu,Brasil,bakery,-25.4800961,-54.5088323,https://www.openstreetmap.org/way/1096840726
+Marin,Foz do Iguaçu,Brasil,pet_grooming,-25.4795561,-54.5094372,https://www.openstreetmap.org/way/1096840727
+Hiper Pizza,Foz do Iguaçu,Brasil,restaurant,-25.4796164,-54.5094057,https://www.openstreetmap.org/way/1096840728
+MB,Foz do Iguaçu,Brasil,car_repair,-25.4796725,-54.5093973,https://www.openstreetmap.org/way/1096840729
+Motta Bebidas,Foz do Iguaçu,Brasil,convenience,-25.4797262,-54.5093538,https://www.openstreetmap.org/way/1096840730
+Top Gear,Foz do Iguaçu,Brasil,car_repair,-25.4795749,-54.5090086,https://www.openstreetmap.org/way/1096840731
+Ale Cell,Foz do Iguaçu,Brasil,electronics_repair,-25.4801588,-54.5090584,https://www.openstreetmap.org/way/1096840732
+Unidade Básica de Saúde Cidade Nova,Foz do Iguaçu,Brasil,clinic,-25.4669825,-54.5578804,https://www.openstreetmap.org/way/1098898425
+McDonald's,Foz do Iguaçu,Brasil,fast_food,-25.501067,-54.5369436,https://www.openstreetmap.org/way/1423027219
+Jeep Fipal - Foz do Iguaçu,Foz do Iguaçu,Brasil,car,-25.5231079,-54.5641627,https://www.openstreetmap.org/way/1434461016
+Droga Raia,Foz do Iguaçu,Brasil,pharmacy,-25.5520788,-54.5703788,https://www.openstreetmap.org/way/1436760014
+Farmácia São João,Foz do Iguaçu,Brasil,pharmacy,-25.5522805,-54.5710719,https://www.openstreetmap.org/way/1436760015

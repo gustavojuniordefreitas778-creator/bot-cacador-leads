@@ -34,15 +34,7 @@ class City:
 CITIES = {
     "Foz do Iguaçu": City("Foz do Iguaçu", "Brasil"),
     "Ciudad del Este": City("Ciudad del Este", "Paraguai"),
-    "Curitiba": City("Curitiba", "Brasil"),
-    "São Paulo": City("São Paulo", "Brasil"),
-    "Rio de Janeiro": City("Rio de Janeiro", "Brasil"),
-    "Brasília": City("Brasília", "Brasil"),
-    "Asunción": City("Asunción", "Paraguai"),
-    "Encarnación": City("Encarnación", "Paraguai"),
 }
-
-DEFAULT_CITIES = ("Foz do Iguaçu", "Ciudad del Este", "Curitiba", "São Paulo", "Asunción")
 
 
 def build_session() -> requests.Session:
@@ -79,7 +71,7 @@ def request_city(session: requests.Session, city: City) -> list[dict[str, Any]]:
         response = session.post(
             OVERPASS_URL,
             data={"data": make_query(city.name)},
-            timeout=(15, 120),
+            timeout=(15, 90),
         )
         response.raise_for_status()
         payload = response.json()
