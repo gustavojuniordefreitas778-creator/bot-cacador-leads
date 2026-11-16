@@ -1,7 +1,6 @@
-"""Find OpenStreetMap businesses without a listed website across Brazil and Paraguay.
+"""Find OpenStreetMap businesses without a website and extract phone/email.
 
-This tool creates a reviewable CSV. It does not collect email addresses or
-send messages. Contact businesses only through lawful, consent-based channels.
+This tool creates a reviewable CSV for lead generation.
 """
 
 from __future__ import annotations
@@ -116,6 +115,11 @@ def element_to_row(element: dict[str, Any], city: City) -> dict[str, str] | None
         return None
 
     category = tags.get("shop") or tags.get("amenity") or tags.get("craft") or "business"
+    
+    # Extração segura de telefone e e-mail cadastrados no OSM
+    telefone = tags.get("phone") or tags.get("contact:phone") or tags.get("mobile") or ""
+    email = tags.get("email") or tags.get("contact:email") or ""
+
     element_type = str(element.get("type", ""))
     element_id = str(element.get("id", ""))
     if element_type not in {"node", "way", "relation"} or not element_id:
@@ -126,6 +130,8 @@ def element_to_row(element: dict[str, Any], city: City) -> dict[str, str] | None
         "cidade": city.name,
         "pais": city.country,
         "categoria": clean_cell(category),
+        "telefone": clean_cell(telefone),
+        "email": clean_cell(email),
         "latitude": str(latitude),
         "longitude": str(longitude),
         "osm": f"https://www.openstreetmap.org/{element_type}/{element_id}",
@@ -151,7 +157,8 @@ def find_businesses(city_names: list[str]) -> list[dict[str, str]]:
 
 def write_csv(rows: list[dict[str, str]], output_path: Path) -> None:
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    fields = ("nome", "cidade", "pais", "categoria", "latitude", "longitude", "osm")
+    # Novas colunas incluindo telefone e email
+    fields = ("nome", "cidade", "pais", "categoria", "telefone", "email", "latitude", "longitude", "osm")
     with output_path.open("w", newline="", encoding="utf-8-sig") as output_file:
         writer = csv.DictWriter(output_file, fieldnames=fields, extrasaction="ignore")
         writer.writeheader()
@@ -160,7 +167,7 @@ def write_csv(rows: list[dict[str, str]], output_path: Path) -> None:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Gera uma lista CSV de negócios no OSM sem site cadastrado no Brasil e Paraguai."
+        description="Gera uma lista CSV de negócios no OSM sem site cadastrado."
     )
     parser.add_argument(
         "--cities",
