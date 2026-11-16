@@ -12,7 +12,7 @@ MENSAGEM = (
     "Olá! Tudo bem? Meu nome é Gustavo e desenvolvi uma demonstração de site "
     "para a Farma Util, negócio local de Foz do Iguaçu. Gostaria de apresentar "
     "a proposta e saber o que acha. Você pode conferir a demonstração aqui: "
-    "https://gustavojuniordefreitas778-criador.github.io/bot-cacador-leads/"
+    f"{"https://gustavojuniordefreitas778-creator.github.io/bot-cacador-leads/"}"
 )
 TEMPO_CARREGAMENTO = 20
 
