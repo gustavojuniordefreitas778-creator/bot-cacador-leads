@@ -1,4 +1,4 @@
-"""Find OpenStreetMap businesses without a listed website.
+"""Find OpenStreetMap businesses without a listed website across Brazil and Paraguay.
 
 This tool creates a reviewable CSV. It does not collect email addresses or
 send messages. Contact businesses only through lawful, consent-based channels.
@@ -9,7 +9,6 @@ from __future__ import annotations
 import argparse
 import csv
 import logging
-import re
 import sys
 import time
 from dataclasses import dataclass
@@ -23,7 +22,6 @@ from urllib3.util.retry import Retry
 
 OVERPASS_URL = "https://overpass-api.de/api/interpreter"
 USER_AGENT = "BotCacador/1.0 (OpenStreetMap lead research; contact: project operator)"
-DEFAULT_CITIES = ("Foz do Iguaçu", "Ciudad del Este")
 LOG = logging.getLogger("bot_cacador")
 
 
@@ -33,10 +31,19 @@ class City:
     country: str
 
 
+# Dicionário expandido com as principais cidades e capitais do Brasil e Paraguai
 CITIES = {
     "Foz do Iguaçu": City("Foz do Iguaçu", "Brasil"),
     "Ciudad del Este": City("Ciudad del Este", "Paraguai"),
+    "Curitiba": City("Curitiba", "Brasil"),
+    "São Paulo": City("São Paulo", "Brasil"),
+    "Rio de Janeiro": City("Rio de Janeiro", "Brasil"),
+    "Brasília": City("Brasília", "Brasil"),
+    "Asunción": City("Asunción", "Paraguai"),
+    "Encarnación": City("Encarnación", "Paraguai"),
 }
+
+DEFAULT_CITIES = ("Foz do Iguaçu", "Ciudad del Este", "Curitiba", "São Paulo", "Asunción")
 
 
 def build_session() -> requests.Session:
@@ -58,12 +65,12 @@ def build_session() -> requests.Session:
 
 def make_query(city_name: str) -> str:
     safe_name = city_name.replace("\\", "\\\\").replace('"', '\\"')
-    return f"""[out:json][timeout:60];
-area[\"name\"=\"{safe_name}\"][\"boundary\"=\"administrative\"]->.city;
+    return f"""[out:json][timeout:90];
+area["name"~"^{safe_name}$"]["boundary"="administrative"]->.city;
 (
-  nwr[\"shop\"][\"name\"][\"website\"!~\".\"][\"contact:website\"!~\".\"](area.city);
-  nwr[\"amenity\"~\"^(restaurant|cafe|bar|fast_food|beauty_salon|hairdresser|dentist|clinic|pharmacy|doctors|veterinary|car_repair|car_wash|hotel|guest_house|bakery|bank|fitness_centre)$\"][\"name\"][\"website\"!~\".\"][\"contact:website\"!~\".\"](area.city);
-  nwr[\"craft\"][\"name\"][\"website\"!~\".\"][\"contact:website\"!~\".\"](area.city);
+  nwr["shop"]["name"]["website"!~"."]["contact:website"!~"."](area.city);
+  nwr["amenity"~"^(restaurant|cafe|bar|fast_food|beauty_salon|hairdresser|dentist|clinic|pharmacy|doctors|veterinary|car_repair|car_wash|hotel|guest_house|bakery|bank|fitness_centre)$"]["name"]["website"!~"."]["contact:website"!~"."](area.city);
+  nwr["craft"]["name"]["website"!~"."]["contact:website"!~"."](area.city);
 );
 out center tags;"""
 
@@ -73,7 +80,7 @@ def request_city(session: requests.Session, city: City) -> list[dict[str, Any]]:
         response = session.post(
             OVERPASS_URL,
             data={"data": make_query(city.name)},
-            timeout=(15, 90),
+            timeout=(15, 120),
         )
         response.raise_for_status()
         payload = response.json()
@@ -130,15 +137,15 @@ def find_businesses(city_names: list[str]) -> list[dict[str, str]]:
     rows: dict[str, dict[str, str]] = {}
     for index, city_name in enumerate(city_names):
         city = CITIES[city_name]
-        LOG.info("Consultando estabelecimentos em %s", city.name)
+        LOG.info("Consultando estabelecimentos em %s (%s)", city.name, city.country)
         elements = request_city(session, city)
         for element in elements:
             row = element_to_row(element, city)
             if row:
                 rows[row["osm"]] = row
-        LOG.info("%s: %d estabelecimentos encontrados", city.name, len(elements))
+        LOG.info("%s: %d estabelecimentos sem site encontrados", city.name, len(elements))
         if index < len(city_names) - 1:
-            time.sleep(2)
+            time.sleep(3)
     return list(rows.values())
 
 
@@ -153,14 +160,14 @@ def write_csv(rows: list[dict[str, str]], output_path: Path) -> None:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Gera uma lista CSV de negócios no OSM sem site cadastrado."
+        description="Gera uma lista CSV de negócios no OSM sem site cadastrado no Brasil e Paraguai."
     )
     parser.add_argument(
         "--cities",
         nargs="+",
         choices=tuple(CITIES),
         default=list(DEFAULT_CITIES),
-        help="Cidades suportadas (padrão: Foz do Iguaçu e Ciudad del Este).",
+        help="Cidades suportadas.",
     )
     parser.add_argument(
         "--output",
