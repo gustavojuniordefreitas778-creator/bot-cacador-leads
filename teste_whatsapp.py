@@ -1,3 +1,4 @@
+import time
 import pandas as pd
 import pywhatkit as kit
 import unicodedata
@@ -18,6 +19,7 @@ for index, lead in df.iterrows():
     cidade = str(lead.get("cidade", "Parana")).strip()
     telefone = str(lead.get("telefone", "")).strip()
 
+    # Ignora linhas sem telefone válido ou vazias
     if not telefone or telefone.lower() == "nan" or telefone.lower() == "none" or telefone == "":
         continue
 
@@ -38,9 +40,11 @@ for index, lead in df.iterrows():
     )
 
     print(f"\n----------------------------------------")
-    print(f"A enviar para o cliente: {nome_empresa}")
-    print(f"Número de destino: +{telefone_limpo}")
-    print(f"Link da página: {link_site}")
+    print(f"A enviar para: {nome_empresa} (+{telefone_limpo})")
+    print(f"Link: {link_site}")
 
+    # Envia a mensagem de forma instantânea
     kit.sendwhatmsg_instantly(f"+{telefone_limpo}", mensagem, wait_time=15, tab_close=True)
-    break
+    
+    # Pausa de 10 segundos entre cada envio para dar tempo ao WhatsApp Web de fechar o separador e abrir o próximo
+    time.sleep(10)

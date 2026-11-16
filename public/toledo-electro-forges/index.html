@@ -2,18 +2,70 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Demonstração - Electro Forges</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electro Forges | Site Oficial</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background: #f4f4f9; color: #333; }
-        h1 { color: #007bff; }
-        .card { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: inline-block; }
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --bg-color: #0f172a;
+            --text-color: #334155;
+            --light-bg: #f8fafc;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: var(--light-bg); color: var(--text-color); line-height: 1.6; }
+        header { background: linear-gradient(135deg, var(--bg-color), #1e293b); color: white; padding: 60px 20px; text-align: center; }
+        header h1 { font-size: 2.5rem; margin-bottom: 10px; color: #60a5fa; }
+        header p { font-size: 1.1rem; color: #94a3b8; max-width: 600px; margin: 0 auto; }
+        .badge { background: #3b82f6; color: white; padding: 5px 15px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; display: inline-block; margin-bottom: 15px; text-transform: uppercase; }
+        container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
+        .section { background: white; margin: 30px auto; padding: 40px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); max-width: 800px; text-align: center; }
+        .section h2 { color: #1e293b; margin-bottom: 15px; font-size: 1.8rem; }
+        .section p { margin-bottom: 20px; color: #64748b; font-size: 1.1rem; }
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-top: 30px; text-align: left; }
+        .feature-card { background: #f1f5f9; padding: 20px; border-radius: 8px; border-left: 4px solid var(--primary); }
+        .feature-card h3 { font-size: 1.1rem; color: #1e293b; margin-bottom: 8px; }
+        .feature-card p { font-size: 0.90rem; margin: 0; color: #475569; }
+        .cta-btn { display: inline-block; background: #22c55e; color: white; padding: 15px 35px; border-radius: 30px; text-decoration: none; font-weight: bold; font-size: 1.1rem; margin-top: 20px; box-shadow: 0 4px 14px rgba(34, 197, 94, 0.4); transition: background 0.3s; }
+        .cta-btn:hover { background: #16a34a; }
+        footer { text-align: center; padding: 30px; color: #94a3b8; font-size: 0.9rem; background: #0f172a; color: #94a3b8; margin-top: 50px; }
     </style>
 </head>
 <body>
-    <div class="card">
+
+    <header>
+        <span class="badge">Proposta de Demonstração Exclusiva</span>
         <h1>Electro Forges</h1>
-        <p>Demonstração de site profissional desenvolvida para negócios locais em Toledo.</p>
-        <p><strong>Entre em contacto para saber mais!</strong></p>
+        <p>Solução digital profissional preparada sob medida para destacar o seu negócio em Toledo.</p>
+    </header>
+
+    <div style="max-width: 900px; margin: -30px auto 0; padding: 0 20px;">
+        <div class="section">
+            <h2>Transforme visitantes em clientes fiéis</h2>
+            <p>Criámos esta página de demonstração para mostrar como a <strong>Electro Forges</strong> pode ter uma presença digital de alto nível, atraindo mais público da região de Toledo.</p>
+            
+            <div class="features">
+                <div class="feature-card">
+                    <h3>📱 100% Responsivo</h3>
+                    <p>Perfeito para telemóveis, tablets e computadores.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>⚡ Alta Velocidade</h3>
+                    <p>Carregamento ultrarrápido para reter a atenção dos clientes.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>💬 WhatsApp Integrado</h3>
+                    <p>Facilita o contacto direto com o seu estabelecimento.</p>
+                </div>
+            </div>
+
+            <a href="https://wa.me/" class="cta-btn" target="_blank">Falar com o Desenvolvedor</a>
+        </div>
     </div>
+
+    <footer>
+        <p>Proposta comercial desenvolvida para Electro Forges • Toledo</p>
+    </footer>
+
 </body>
 </html>
